@@ -1,0 +1,20 @@
+<div class="row">
+  <div class="col-md-offset-3 col-lg-6">
+    <div class="alert-info alert">
+      <p class="text-capitalize"><strong>choisir une saison</strong></p>
+      <p class="text-capitalize">Dans quelle saison sommes-nous?</p>
+      <p class="text-capitalize">appuyez sur la bonne saison</p>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div ng-repeat="saison in saisons">
+    <div class="col-xs-6 col-md-3">
+      <div class="text-uppercase">{{saison.name}}</div>
+      <a href="/#/saison/{{saison.id}}" class="thumbnail">
+        <img ng-src="{{saison.image}}" alt="Printemps">
+      </a>
+    </div>
+  </div>
+</div>
