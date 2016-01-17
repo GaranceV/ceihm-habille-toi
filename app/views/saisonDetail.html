@@ -1,16 +1,16 @@
 <!--View saison detail-->
 <div class="row">
-  <div class="col-lg-12">
+  <div class="col-lg-3">
+    <h2 class="text-capitalize ">C'est {{saison.name}}</h2>
+    <p class="text-capitalize ">{{saison.des}}, Il faut aider le mannequin à s'habiller!</p>
+    <p class="text-capitalize">Choisir les bons vêtements dans l'armoire </p>
+    <a href="javascript:history.back()" class="btn btn-success">Retour</a>
+    <a class="btn btn-info" ng-href="/#/saison/{{saison.id}}/mannequin">Choisir un mannequin</a>
+  </div>
+  <div class="col-lg-9">
     <div class="panel panel-default">
       <div class="panel-body" style="position: relative;">
         <img ng-src="{{saison.bgimage}}"style="width: 100%;">
-        <div style="position: absolute; z-index: 1;top: 7px;left: 26px;">
-          <h2 class="text-capitalize bg-success">C'est {{saison.name}}</h2>
-          <p class="text-capitalize bg-success">{{saison.des}}, Il faut aider le mannequin à s'habiller!</p>
-          <p class="text-capitalize bg-success">Choisir les bons vêtements dans l'armoire </p>
-          <a href="javascript:history.back()" class="btn btn-success">Retour</a>
-          <a class="btn btn-info" href="/#/saison/{{saion.id}}/mannequin">Choisir un mannequin</a>
-        </div>
       </div>
     </div>
   </div>

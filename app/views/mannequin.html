@@ -1,0 +1,20 @@
+<div class="row">
+  <div class="col-md-offset-3 col-lg-6">
+    <div class="alert-info alert">
+      <p class="text-capitalize"><strong>qui habille-t-on?</strong></p>
+      <p class="text-capitalize">pour continuer, vous devez choisir si on habille un homme ou une femme</p>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-3"></div>
+  <div ng-repeat="mannequin in mannequins">
+    <div class="col-xs-6 col-md-3">
+      <div class="text-uppercase">{{mannequin.name}}</div>
+      <a href="/#/saison/{{saisonId}}/mannequin/{{mannequin.id}}" class="thumbnail">
+        <img ng-src="{{mannequin.image}}" alt="mannequin">
+      </a>
+    </div>
+  </div>
+</div>

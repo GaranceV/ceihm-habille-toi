@@ -53,4 +53,33 @@ angular.module('habilleToiApp')
       }
     };
 
-  });
+  })
+  .factory('Mannequins', function () {
+
+    var mannequins = [{
+      id: 0,
+      name : 'homme',
+      image : '../images/corpsHomme.png'
+
+    },
+      {
+        id: 1,
+        name : 'femme',
+        image : '../images/corpsFemme.png',
+      }
+    ];
+
+    return {
+      all: function() {
+        return mannequins;
+      },
+      get: function(mannequinId) {
+        for (var i = 0; i < mannequins.length; i++) {
+          if (mannequins[i].id === parseInt(mannequinId)) {
+            return mannequins[i];
+          }
+        }
+      }
+    };
+
+  });;
