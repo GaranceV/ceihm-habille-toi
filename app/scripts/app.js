@@ -33,8 +33,12 @@ angular
       })
       .when('/saison/:saisonId', {
         templateUrl: 'views/saisonDetail.html',
-        controller: 'SaisonCtrl',
-        controllerAs: 'saison'
+        controller: 'SaisonDetailCtrl'
+      })
+      .when('/saison/:saisonId/mannequin', {
+        templateUrl: 'views/mannequin.html',
+        controller: 'MannequinCtrl',
+        controllerAs: 'mannequin'
       })
       .when('/meteo', {
         templateUrl: 'views/meteo.html',

@@ -14,7 +14,10 @@ angular.module('habilleToiApp')
       'AngularJS',
       'Karma'
     ];
-
     $scope.saisons = Saisons.all();
+  })
 
-  });
+  .controller('SaisonDetailCtrl', function ($scope, Saisons, $routeParams) {
+    $scope.saison = Saisons.get($routeParams.saisonId);
+  })
+;

@@ -11,23 +11,32 @@ angular.module('habilleToiApp')
 
     var saisons = [{
       id: 0,
-      name : "printemps",
-      image : '../images/printemps.png'
+      name : 'printemps',
+      des: 'il fait beau en printemps',
+      image : '../images/printemps.png',
+      bgimage: '../images/printemps-bg.jpg'
+
     },
       {
         id: 1,
-        name : "ete",
-        image : '../images/ete.png'
+        name : 'ete',
+        des: 'il fait chaud en été',
+        image : '../images/ete.png',
+        bgimage: '../images/ete-bg.jpg'
       },
       {
         id: 2,
-        name : "automne",
-        image : '../images/automne.png'
+        name : 'automne',
+        des: 'il fait fraiche en automne',
+        image : '../images/automne.png',
+        bgimage : '../images/automne-bg.jpg'
       },
       {
         id: 3,
-        name : "hiver",
-        image : '../images/hiver.png'
+        name : 'hiver',
+        des : 'il fait froid en hiver',
+        image : '../images/hiver.png',
+        bgimage: '../images/hiver-bg.jpg'
       }
     ];
 
@@ -41,8 +50,7 @@ angular.module('habilleToiApp')
             return saisons[i];
           }
         }
-        return null;
       }
-    }
+    };
 
   });
