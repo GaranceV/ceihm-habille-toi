@@ -85,20 +85,18 @@ angular.module('habilleToiApp')
     var sousvetements = [{
       id: 0,
       name : 'soutien-gorge',
-      image : '../images/vetements/soutien-gorge_resize.png'
-
+      image : '../images/vetements/soutien-gorge.png'
     },
-      {
-        id: 1,
-        name : 'culotte',
-        image : '../images/vetements/culotte.png'
-      }
-      ,
-      {
-        id: 2,
-        name : 'maillot',
-        image : '../images/vetements/maillot.png'
-      }
+    {
+      id: 1,
+      name : 'culotte',
+      image : '../images/vetements/culotte.png'
+    },
+    {
+      id: 2,
+      name : 'maillot',
+      image : '../images/vetements/maillot.png'
+    }
     ];
     return {
       all: function() {
@@ -118,7 +116,7 @@ angular.module('habilleToiApp')
     var hauts = [{
       id: 0,
       name : 'pull',
-      image : '../images/vetements/pull_resize.png'
+      image : '../images/vetements/pull_armoire.png'
 
     },
       {
@@ -149,6 +147,12 @@ angular.module('habilleToiApp')
 
     },
       {
+        id: 2,
+        name : 'pantalon best',
+        image : '../images/vetements/pantalon_resize_best.png'
+
+      },
+      {
         id: 1,
         name : 'short pantalon',
         image : '../images/vetements/short_resize.png'
@@ -168,4 +172,72 @@ angular.module('habilleToiApp')
     };
 
   })
+  .factory('Vests', function () {
+    var vests = [{
+      id: 0,
+      name : 'manteau',
+      image : '../images/vetements/manteau_armoire.png'
+
+    }
+    ];
+    return {
+      all: function() {
+        return vests;
+      },
+      get: function(vestId) {
+        for (var i = 0; i < vests.length; i++) {
+          if (vests[i].id === parseInt(vestId)) {
+            return vests[i];
+          }
+        }
+      }
+    };
+  })
+  .factory('Chaussures', function () {
+    var chaussures = [{
+      id: 0,
+      name : 'chaussure',
+      image : '../images/vetements/chaussures_resize.png'
+
+    }
+    ];
+    return {
+      all: function() {
+        return chaussures;
+      },
+      get: function(chaussureId) {
+        for (var i = 0; i < chaussures.length; i++) {
+          if (chaussures[i].id === parseInt(chaussureId)) {
+            return chaussures[i];
+          }
+        }
+      }
+    };
+  })
+  .factory('Accessoires', function () {
+    var  accessoires= [{
+      id: 0,
+      name : 'echarpe',
+      image : '../images/vetements/écharpe.png'
+    },
+      {
+        id: 1,
+        name : 'gant',
+        image : '../images/vetements/gant_droit.png'
+      }
+    ];
+    return {
+      all: function() {
+        return accessoires;
+      },
+      get: function(accessoireId) {
+        for (var i = 0; i < accessoires.length; i++) {
+          if (accessoires[i].id === parseInt(accessoireId)) {
+            return accessoires[i];
+          }
+        }
+      }
+    };
+  })
+
 ;

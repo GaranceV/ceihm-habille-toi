@@ -5,51 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2fb7a0b9-3187-4c69-95a4-f03c95726af5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/vetements/armoire/chaussettes_armoire.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/vetements/chausette droite.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/vetements/chaussette gauche.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/vetements/chaussettes_resize.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/vetements/chaussure_droite.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/vetements/chaussures_gauche.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/vetements/chaussures_resize.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/vetements/corpsFemme.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/vetements/corpsHomme.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/vetements/culotte.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/vetements/gant droit resize.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/vetements/gant droit.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/vetements/gant gauche resize.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/vetements/gant gauche.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/vetements/maillot.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/vetements/maillot_resize.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/vetements/manteau_armoire.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/vetements/manteau_resize.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/vetements/pantalon_resize.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/vetements/pantalon_resize_best.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/vetements/pull.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/vetements/pull_armoire.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/vetements/pull_resize.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/vetements/short_resize.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/vetements/soutien-gorge.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/vetements/soutien-gorge_resize.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/vetements/tunique_resize.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/vetements/écharpe.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/images/vetements/écharpe_resize.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/scripts/controllers/habille.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/habille.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/automne-bg.jpg" afterPath="$PROJECT_DIR$/app/images/saisons/automne-bg.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/automne.png" afterPath="$PROJECT_DIR$/app/images/saisons/automne.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/corpsFemme.png" afterPath="$PROJECT_DIR$/app/images/mannequins/corpsFemme.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/corpsHomme.png" afterPath="$PROJECT_DIR$/app/images/mannequins/corpsHomme.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/ete-bg.jpg" afterPath="$PROJECT_DIR$/app/images/saisons/ete-bg.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/ete.png" afterPath="$PROJECT_DIR$/app/images/saisons/ete.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/hiver-bg.jpg" afterPath="$PROJECT_DIR$/app/images/saisons/hiver-bg.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/hiver.png" afterPath="$PROJECT_DIR$/app/images/saisons/hiver.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/printemps-bg.jpg" afterPath="$PROJECT_DIR$/app/images/saisons/printemps-bg.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/printemps.png" afterPath="$PROJECT_DIR$/app/images/saisons/printemps.png" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/vetements/corpsFemme.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/vetements/corpsHomme.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/vetements/gant droit resize.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/vetements/gant gauche resize.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/vetements/maillot_resize.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/vetements/manteau_resize.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/vetements/pull_resize.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/vetements/soutien-gorge_resize.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/vetements/écharpe_resize.png" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/images/vetements/gant droit.png" afterPath="$PROJECT_DIR$/app/images/vetements/gant_droit.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/app.js" afterPath="$PROJECT_DIR$/app/scripts/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/controllers/habille.js" afterPath="$PROJECT_DIR$/app/scripts/controllers/habille.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/services/services.js" afterPath="$PROJECT_DIR$/app/scripts/services/services.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/habille.html" afterPath="$PROJECT_DIR$/app/views/habille.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/home.html" afterPath="$PROJECT_DIR$/app/views/home.html" />
     </list>
     <ignored path="habille-toi.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -80,15 +50,24 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="home.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/home.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.35714287">
+              <caret line="14" column="80" selection-start-line="14" selection-start-column="80" selection-end-line="14" selection-end-column="80" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="services.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/scripts/services/services.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="99" column="49" selection-start-line="99" selection-start-column="49" selection-end-line="99" selection-end-column="49" />
+            <state vertical-scroll-proportion="-6.6666665">
+              <caret line="217" column="20" selection-start-line="217" selection-start-column="9" selection-end-line="217" selection-end-column="20" />
               <folding>
                 <element signature="e#195#1269#0" expanded="false" />
                 <element signature="e#1308#1843#0" expanded="false" />
-                <element signature="e#2604#3107#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -98,24 +77,31 @@
         <entry file="file://$PROJECT_DIR$/app/scripts/controllers/habille.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
+              <caret line="23" column="43" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="habille.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="habille.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/habille.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5867347">
-              <caret line="23" column="14" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
+            <state vertical-scroll-proportion="-17.625">
+              <caret line="59" column="14" selection-start-line="59" selection-start-column="14" selection-end-line="59" selection-end-column="14" />
               <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#2;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#2;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#4;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#4;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#5;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#5;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -141,7 +127,6 @@
         <option value="$PROJECT_DIR$/app/views/main.html" />
         <option value="$PROJECT_DIR$/app/scripts/controllers/about.js" />
         <option value="$PROJECT_DIR$/app/scripts/controllers/home.js" />
-        <option value="$PROJECT_DIR$/app/views/home.html" />
         <option value="$PROJECT_DIR$/app/views/saison.html" />
         <option value="$PROJECT_DIR$/dist/scripts/scripts.b3e64549.js" />
         <option value="$PROJECT_DIR$/README.md" />
@@ -155,6 +140,7 @@
         <option value="$PROJECT_DIR$/app/scripts/services/services.js" />
         <option value="$PROJECT_DIR$/app/scripts/controllers/habille.js" />
         <option value="$PROJECT_DIR$/app/views/habille.html" />
+        <option value="$PROJECT_DIR$/app/views/home.html" />
       </list>
     </option>
   </component>
@@ -459,6 +445,7 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24543288" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328125" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2494043" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -470,7 +457,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32866043" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -631,14 +617,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5102041">
-          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/images/mannequins/corpsHomme.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -649,14 +627,58 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/images/vetements/pantalon_resize.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/images/vetements/pantalon_resize_best.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/images/vetements/pull.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/images/vetements/pull_armoire.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/images/vetements/écharpe.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/images/vetements/soutien-gorge.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/images/vetements/soutien-gorge_resize.png">
+    <entry file="file://$PROJECT_DIR$/app/images/vetements/short_resize.png">
       <provider selected="true" editor-type-id="images">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/habille.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="43" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/services/services.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.6666665">
+          <caret line="217" column="20" selection-start-line="217" selection-start-column="9" selection-end-line="217" selection-end-column="20" />
+          <folding>
+            <element signature="e#195#1269#0" expanded="false" />
+            <element signature="e#1308#1843#0" expanded="false" />
+          </folding>
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/saison.html">
@@ -667,38 +689,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/habille.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/services/services.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="99" column="49" selection-start-line="99" selection-start-column="49" selection-end-line="99" selection-end-column="49" />
-          <folding>
-            <element signature="e#195#1269#0" expanded="false" />
-            <element signature="e#1308#1843#0" expanded="false" />
-            <element signature="e#2604#3107#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/habille.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5867347">
-          <caret line="23" column="14" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
+        <state vertical-scroll-proportion="-17.625">
+          <caret line="59" column="14" selection-start-line="59" selection-start-column="14" selection-end-line="59" selection-end-column="14" />
           <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#2;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#4;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#4;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#5;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#5;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35714287">
+          <caret line="14" column="80" selection-start-line="14" selection-start-column="80" selection-end-line="14" selection-end-column="80" />
+          <folding />
         </state>
       </provider>
     </entry>
