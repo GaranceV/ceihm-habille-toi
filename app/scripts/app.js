@@ -40,6 +40,13 @@ angular
         controller: 'MannequinCtrl',
         controllerAs: 'mannequin'
       })
+      .when('/saison/:saisonId/mannequin/:mannequinId', {
+        templateUrl: 'views/habille.html',
+        controller: 'HabilleCtrl',
+        controllerAs: 'habille'
+      })
+
+
       .when('/meteo', {
         templateUrl: 'views/meteo.html',
         controller: 'MeteoCtrl',

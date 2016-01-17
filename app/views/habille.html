@@ -1,0 +1,37 @@
+<div class="row">
+  <div class="col-lg-12">
+    <div class="panel panel-default" style="background-image: url({{saison.bgimage}}); min-height: 500px">
+      <div class="col-lg-4">
+        <img ng-src="{{mannequin.image}}">
+      </div>
+      <div class="col-lg-8">
+        <div class="row" style="background-image: url('../images/armoire-bg.jpg'); margin-top: 20px; padding: 10px 0px 10px 0px;">
+          Sous Vêtements
+          <div ng-repeat="sousvetement in sousvetements">
+            <div class="col-lg-2">
+              <img class="navbar-brand" style="padding: 0.5px 32px;" ng-src="{{sousvetement.image}}">
+            </div>
+          </div>
+        </div>
+
+        <div class="row" style="background-image: url('../images/armoire-bg.jpg'); margin-top: 20px; padding: 10px 0px 10px 0px;">
+          Hauts
+          <div ng-repeat="haut in hauts">
+            <div class="col-lg-2">
+              <img class="navbar-brand" style="padding: 0.5px 32px;" ng-src="{{haut.image}}">
+            </div>
+          </div>
+        </div>
+
+        <div class="row" style="background-image: url('../images/armoire-bg.jpg'); margin-top: 20px; padding: 10px 0px 10px 0px;">
+          Bas
+          <div ng-repeat="ba in bas">
+            <div class="col-lg-2">
+              <img class="navbar-brand" style="padding: 0.5px 32px;" ng-src="{{ba.image}}">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
