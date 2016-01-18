@@ -87,6 +87,36 @@ angular.module('habilleToiApp')
         name: 'femme',
         image: femmeURI + 'brapanties' + ext,
         ident: 'brapanties'
+      },
+      {
+        id: 5,
+        name: 'femme',
+        image: femmeURI + 'socks' + ext,
+        ident: 'socks'
+      },
+      {
+        id: 6,
+        name: 'femme',
+        image: femmeURI + 'brasocks' + ext,
+        ident: 'brasocks'
+      },
+      {
+        id: 7,
+        name: 'femme',
+        image: femmeURI + 'sockspanties' + ext,
+        ident: 'pantiessocks'
+      },
+      {
+        id: 8,
+        name: 'femme',
+        image: femmeURI + 'sockspanties' + ext,
+        ident: 'sockspanties'
+      },
+      {
+        id: 9,
+        name: 'femme',
+        image: femmeURI + 'underwear' + ext,
+        ident: 'underwear'
       }
     ];
     return {
@@ -126,7 +156,7 @@ angular.module('habilleToiApp')
       {
         id: 3,
         name: 'chaussettes',
-        image: '../images/vetements/chaussettes_resize.png',
+        image: '../images/vetements/armoire/chaussettes_armoire.png',
         ident: 'socks'
       },
       {
