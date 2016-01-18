@@ -12,7 +12,7 @@ angular.module('habilleToiApp')
     var saisons = [{
       id: 0,
       name : 'printemps',
-      des: 'il fait beau en printemps',
+      des: 'il fait beau au printemps',
       image : '../images/saisons/printemps.png',
       bgimage: '../images/saisons/printemps-bg.jpg'
 
@@ -27,7 +27,7 @@ angular.module('habilleToiApp')
       {
         id: 2,
         name : 'automne',
-        des: 'il fait fraiche en automne',
+        des: 'il fait frais en automne',
         image : '../images/saisons/automne.png',
         bgimage : '../images/saisons/automne-bg.jpg'
       },
