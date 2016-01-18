@@ -330,6 +330,36 @@
     "name" : "femme",
     "image" : "../images/mannequins/brashirtscarfpullover.png",
     "ident": "brashirtscarfpullover"
+  },
+  {
+    "id" : 54,
+    "name" : "femme",
+    "image" : "../images/mannequins/underwearpantsshoesshirt.png",
+    "ident": "underwearpantsshoesshirt"
+  },
+  {
+    "id" : 55,
+    "name" : "femme",
+    "image" : "../images/mannequins/sockspantiespantsbra.png",
+    "ident": "sockspantiespantsbra"
+  },
+  {
+    "id" : 56,
+    "name" : "femme",
+    "image" : "../images/mannequins/sockspantiespantsshoesshirt.png",
+    "ident": "sockspantiespantsshoesshirt"
+  },
+  {
+    "id" : 57,
+    "name" : "femme",
+    "image" : "../images/mannequins/brashirtpanties.png",
+    "ident": "brashirtpanties"
+  },
+  {
+    "id" : 58,
+    "name" : "femme",
+    "image" : "../images/mannequins/brashirtsocks.png",
+    "ident": "brashirtsocks"
   }
 
 ]
