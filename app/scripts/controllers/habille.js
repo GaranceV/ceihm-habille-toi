@@ -8,7 +8,7 @@
  * Controller of the habilleToiApp
  */
 angular.module('habilleToiApp')
-  .controller('HabilleCtrl', function ($scope, Saisons, Mannequins,Sousvetements,Hauts, Bas, Vests,Chaussures,Accessoires, $routeParams) {
+  .controller('HabilleCtrl', function ($scope, $document, Saisons, Mannequins,Sousvetements,Hauts, Bas, Vests,Chaussures,Accessoires, $routeParams) {
 
     $scope.saison = Saisons.get($routeParams.saisonId);
     $scope.mannequin = Mannequins.get($routeParams.mannequinId);
@@ -33,8 +33,7 @@ angular.module('habilleToiApp')
         findAndRemove($scope.sousvetements, 'ident', clothesJSON.ident);
 
       }
-      else if (clothesJSON.ident == 'panties' && $scope.mannequin.ident == 'bra'
-      || clothesJSON.ident == 'bra' && $scope.mannequin.ident == 'panties' ) {
+      else if (clothesJSON.ident == 'panties' && $scope.mannequin.ident == 'bra' || clothesJSON.ident == 'bra' && $scope.mannequin.ident == 'panties' ) {
         $scope.mannequin = Mannequins.getIdent('brapanties');
         console.log('you clicked on panties and the dummy has a bra');
         findAndRemove($scope.sousvetements, 'ident', clothesJSON.ident);
@@ -43,7 +42,7 @@ angular.module('habilleToiApp')
       else {
         var audio_bad = new Audio('../../sounds/bad.mp3');
         audio_bad.play();
-        findAndFilter($scope.sousvetements, 'ident', clothesJSON.ident);
+        findAndFilter($scope.sousvetements, 'ident', clothesJSON.ident, $document);
       }
       console.log('you clicked');
     };
@@ -61,8 +60,7 @@ angular.module('habilleToiApp')
         findAndRemove($scope.sousvetements, 'ident', clothesJSON.ident);
 
       }
-      else if (clothesJSON.ident == 'panties' && $scope.mannequin.ident == 'bra'
-        || clothesJSON.ident == 'bra' && $scope.mannequin.ident == 'panties' ) {
+      else if (clothesJSON.ident == 'panties' && $scope.mannequin.ident == 'bra' || clothesJSON.ident == 'bra' && $scope.mannequin.ident == 'panties' ) {
         $scope.mannequin = Mannequins.getIdent('brapanties');
         console.log('you clicked on panties and the dummy has a bra');
         findAndRemove($scope.sousvetements, 'ident', clothesJSON.ident);
@@ -78,14 +76,14 @@ angular.module('habilleToiApp')
           array.splice(index, 1);
         }
       });
-    };
+    }
 
-    function findAndFilter(array, property, value) {
-      array.forEach(function(result, index) {
+    function findAndFilter(array, property, value, $document) {
+      array.forEach(function(result) {
         if(result[property] === value) {
           //gray the chosen image
-
+          angular.element($document[0].getElementById(result[property])).removeClass('hidden');
         }
       });
-    };
+    }
   });
