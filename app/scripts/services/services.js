@@ -53,81 +53,38 @@ angular.module('habilleToiApp')
     };
 
   })
-  .factory('Mannequins', function () {
-    var femmeURI = '../images/mannequins/';
-    var ext = '.png';
-    var mannequins = [{
-      id: 0,
-      name: 'homme',
-      image: '../images/mannequins/corpsHomme.png',
-      teteimage: '../images/mannequins/homme_tete.png'
-
-    },
-      {
-        id: 1,
-        name: 'femme',
-        image: femmeURI + 'naked' + ext,
-        teteimage: '../images/mannequins/femme_tete.png',
-        ident: 'naked'
-      },
-      {
-        id: 2,
-        name: 'femme',
-        image: femmeURI + 'bra' + ext,
-        ident: 'bra'
-      },
-      {
-        id: 3,
-        name: 'femme',
-        image: femmeURI + 'panties' + ext,
-        ident: 'panties'
-      },
-      {
-        id: 4,
-        name: 'femme',
-        image: femmeURI + 'brapanties' + ext,
-        ident: 'brapanties'
-      },
-      {
-        id: 5,
-        name: 'femme',
-        image: femmeURI + 'socks' + ext,
-        ident: 'socks'
-      },
-      {
-        id: 6,
-        name: 'femme',
-        image: femmeURI + 'brasocks' + ext,
-        ident: 'brasocks'
-      },
-      {
-        id: 7,
-        name: 'femme',
-        image: femmeURI + 'sockspanties' + ext,
-        ident: 'sockspanties'
-      },
-      {
-        id: 9,
-        name: 'femme',
-        image: femmeURI + 'underwear' + ext,
-        ident: 'underwear'
-      }
-    ];
+  .factory('Mannequins', function ($http) {
+    //var jsonAddress = "../images/dummy.json";
+    var self = this;
+    self.mannequins = [];
     return {
       all: function () {
-        return mannequins;
+        var promiseDummy = $http.get('../images/dummy.json');
+        promiseDummy.then(function (dummies) {
+          console.log('in the promise result');
+          self.mannequins = dummies;
+          return dummies;
+        });
+        console.log('promise dummy ?!');
+        promiseDummy.then(function(result) {
+          self.mannequins = result.data;
+          console.log(self.mannequins);
+        });
+        return promiseDummy;
       },
       get: function (mannequinId) {
-        for (var i = 0; i < mannequins.length; i++) {
-          if (mannequins[i].id === parseInt(mannequinId)) {
-            return mannequins[i];
+        console.log('you called get dummy');
+        console.log(self.mannequins.length + ' size of mannequins');
+        for (var i = 0; i < self.mannequins.length; i++) {
+          if (self.mannequins[i].id === parseInt(mannequinId)) {
+            return self.mannequins[i];
           }
         }
       },
       getIdent: function (mannequinIdent) {
-        for (var i = 0; i < mannequins.length; i++) {
-          if (mannequins[i].ident === mannequinIdent) {
-            return mannequins[i];
+        for (var i = 0; i < self.mannequins.length; i++) {
+          if (self.mannequins[i].ident === mannequinIdent) {
+            return self.mannequins[i];
           }
         }
       }
