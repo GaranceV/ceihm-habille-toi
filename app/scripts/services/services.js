@@ -117,18 +117,25 @@ angular.module('habilleToiApp')
       image: '../images/vetements/soutien-gorge.png',
       ident: 'bra'
     },
+    {
+      id: 2,
+      name : 'maillot',
+      image : '../images/vetements/maillot.png',
+      ident: body
+    },
+      {
+        id: 3,
+        name: 'chaussettes',
+        image: '../images/vetements/chaussettes_resize.png',
+        ident: socks
+      },
       {
         id: 1,
         name: 'culotte',
         image: '../images/vetements/culotte.png',
         ident: 'panties'
-      },
-      {
-        id: 2,
-        name: 'maillot',
-        image: '../images/vetements/maillot.png',
-        ident: 'body'
       }
+
     ];
     return {
       all: function () {
