@@ -8,8 +8,8 @@
         <div class="row" style="background-image: url('../images/armoire-bg.jpg'); margin-top: 20px; background-size: cover">
           <strong>Sous Vêtements</strong>
           <div ng-repeat="sousvetement in sousvetements">
-            <div class="col-lg-2">
-              <img class="navbar-brand" style="padding: 0.5px 32px;" ng-src="{{sousvetement.image}}">
+            <div ng-click="newUnderwear(sousvetement)" class="col-lg-2">
+              <img class="navbar-brand" style="padding: 0.5px 32px;"  ng-src="{{sousvetement.image}}">
             </div>
           </div>
         </div>
@@ -32,8 +32,13 @@
           </div>
         </div>
 
+<<<<<<< HEAD
         <div class="row" style="background-image: url('../images/armoire-bg.jpg');background-size: cover ">
           <strong>Vests</strong>
+=======
+        <div class="row" style="background-image: url('../images/armoire-bg.jpg'); ">
+          <strong>Vestes</strong>
+>>>>>>> b463a1bfa51914e8dcdb1bde1389983178a8d670
           <div ng-repeat="vest in vests">
             <div class="col-lg-2">
               <img class="navbar-brand" style="padding: 0.5px 32px;" ng-src="{{vest.image}}">
@@ -50,8 +55,13 @@
           </div>
         </div>
 
+<<<<<<< HEAD
         <div class="row" style="background-image: url('../images/armoire-bg.jpg'); background-size: cover">
           <strong>Sccessoires</strong>
+=======
+        <div class="row" style="background-image: url('../images/armoire-bg.jpg');">
+          <strong>Accessoires</strong>
+>>>>>>> b463a1bfa51914e8dcdb1bde1389983178a8d670
           <div ng-repeat="accessoire in accessoires">
             <div class="col-lg-2">
               <img class="navbar-brand" style="padding: 0.5px 32px;" ng-src="{{accessoire.image}}">
