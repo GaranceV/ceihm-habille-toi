@@ -8,7 +8,7 @@
  * Controller of the habilleToiApp
  */
 angular.module('habilleToiApp')
-  .controller('HabilleCtrl', function ($scope, Saisons, Mannequins,Sousvetements,Hauts, Bas, Vests,Chaussures,Accessoires, $routeParams, $document) {
+  .controller('HabilleCtrl', function ($scope, Saisons, Mannequins, Sousvetements, Hauts, Bas, Vests, Chaussures, Accessoires, $routeParams, $document) {
 
     $scope.saison = Saisons.get($routeParams.saisonId);
     $scope.mannequin = Mannequins.get($routeParams.mannequinId);
@@ -22,7 +22,7 @@ angular.module('habilleToiApp')
     $scope.audio_bad = new Audio('../../sounds/bad.mp3');
 
 
-    $scope.newUnderwear = function(clothesJSON) {
+    $scope.newUnderwear = function (clothesJSON) {
       if ($scope.mannequin.ident == 'naked') {
         //dress
         if (clothesJSON.ident == 'bra' || clothesJSON.ident == 'socks' || clothesJSON.ident == 'panties') {
@@ -59,9 +59,23 @@ angular.module('habilleToiApp')
         }
       }
       else if ($scope.mannequin.ident == 'socks') {
-        if (clothesJSON.ident == 'bra' || clothesJSON.ident == 'panties') {
+        if (clothesJSON.ident == 'bra') {
           $scope.mannequin = Mannequins.getIdent(clothesJSON.ident + 'socks');
+          findAndRemove($scope.sousvetements, 'ident', clothesJSON.ident);
+        }
+        else if (clothesJSON.ident == 'panties') {
           $scope.mannequin = Mannequins.getIdent('socks' + clothesJSON.ident);
+        }
+        else {
+          //error
+          $scope.audio_bad.play();
+          findAndFilter($scope.sousvetements, 'ident', clothesJSON.ident);
+        }
+      }
+      else if ($scope.mannequin.ident == 'brasocks' ) {
+        //if panties go underwear
+        if (clothesJSON.ident == 'panties') {
+          $scope.mannequin = Mannequins.getIdent('underwear');
           findAndRemove($scope.sousvetements, 'ident', clothesJSON.ident);
         }
         else {
@@ -70,42 +84,70 @@ angular.module('habilleToiApp')
           findAndFilter($scope.sousvetements, 'ident', clothesJSON.ident);
         }
       }
-    };
-
-
-
-
-    $scope.newShirt = function(clothesJSON) {
-console.log('you clicked on a shirt');
-    };
-
-    function findAndRemove(array, property, value) {
-      array.forEach(function(result, index) {
-        if(result[property] === value) {
-          //Remove from array
-          array.splice(index, 1);
+      else if  ($scope.mannequin.ident == 'sockspanties' ) {
+        //if bra go underwear
+        if (clothesJSON.ident == 'bra') {
+          $scope.mannequin = Mannequins.getIdent('underwear');
+          findAndRemove($scope.sousvetements, 'ident', clothesJSON.ident);
         }
-      });
-   }
-
-
-    $scope.resetClothes = function() {
-      $scope.sousvetements = Sousvetements.all();
-      $scope.hauts = Hauts.all();
-      $scope.bas = Bas.all();
-      $scope.vests = Vests.all();
-      $scope.chaussures = Chaussures.all();
-      $scope.accessoires = Accessoires.all();
-      $scope.mannequin = Mannequins.get($routeParams.mannequinId);
+        else {
+          //error
+          $scope.audio_bad.play();
+          findAndFilter($scope.sousvetements, 'ident', clothesJSON.ident);
+        }
+      }
+      else if  ($scope.mannequin.ident == 'brapanties' ) {
+        //if socks go underwear
+        if (clothesJSON.ident == 'socks') {
+          $scope.mannequin = Mannequins.getIdent('underwear');
+          findAndRemove($scope.sousvetements, 'ident', clothesJSON.ident);
+        }
+        else {
+          //error
+          $scope.audio_bad.play();
+          findAndFilter($scope.sousvetements, 'ident', clothesJSON.ident);
+        }
+      }
+      else {
+        //error
+        $scope.audio_bad.play();
+        findAndFilter($scope.sousvetements, 'ident', clothesJSON.ident);
+      }
     };
 
 
-    function findAndFilter(array, property, value) {
-      array.forEach(function(result, index) {
-        if(result[property] === value) {
-          //gray the chosen image
-          angular.element($document[0].getElementById(result[property])).removeClass('hidden');
-        }
-      });
+$scope.newShirt = function (clothesJSON) {
+  console.log('you clicked on a shirt');
+};
+
+function findAndRemove(array, property, value) {
+  array.forEach(function (result, index) {
+    if (result[property] === value) {
+      //Remove from array
+      array.splice(index, 1);
     }
   });
+}
+
+
+$scope.resetClothes = function () {
+  $scope.sousvetements = Sousvetements.all();
+  $scope.hauts = Hauts.all();
+  $scope.bas = Bas.all();
+  $scope.vests = Vests.all();
+  $scope.chaussures = Chaussures.all();
+  $scope.accessoires = Accessoires.all();
+  $scope.mannequin = Mannequins.get($routeParams.mannequinId);
+};
+
+
+function findAndFilter(array, property, value) {
+  array.forEach(function (result, index) {
+    if (result[property] === value) {
+      //gray the chosen image
+      angular.element($document[0].getElementById(result[property])).removeClass('hidden');
+    }
+  });
+}
+})
+;

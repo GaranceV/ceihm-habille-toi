@@ -104,12 +104,6 @@ angular.module('habilleToiApp')
         id: 7,
         name: 'femme',
         image: femmeURI + 'sockspanties' + ext,
-        ident: 'pantiessocks'
-      },
-      {
-        id: 8,
-        name: 'femme',
-        image: femmeURI + 'sockspanties' + ext,
         ident: 'sockspanties'
       },
       {
