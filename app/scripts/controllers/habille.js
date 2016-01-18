@@ -40,6 +40,11 @@ angular.module('habilleToiApp')
         findAndRemove($scope.sousvetements, 'ident', clothesJSON.ident);
 
       }
+      else {
+        var audio_bad = new Audio('../../sounds/bad.mp3');
+        audio_bad.play();
+        findAndFilter($scope.sousvetements, 'ident', clothesJSON.ident);
+      }
       console.log('you clicked');
     };
 
@@ -73,5 +78,14 @@ angular.module('habilleToiApp')
           array.splice(index, 1);
         }
       });
-    }
+    };
+
+    function findAndFilter(array, property, value) {
+      array.forEach(function(result, index) {
+        if(result[property] === value) {
+          //gray the chosen image
+
+        }
+      });
+    };
   });
