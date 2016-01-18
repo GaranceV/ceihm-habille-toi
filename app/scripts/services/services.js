@@ -76,6 +76,18 @@ angular.module('habilleToiApp')
         name: 'femme',
         image: femmeURI + 'bra' + ext,
         ident: 'bra'
+      },
+      {
+        id: 3,
+        name: 'femme',
+        image: femmeURI + 'panties' + ext,
+        ident: 'panties'
+      },
+      {
+        id: 4,
+        name: 'femme',
+        image: femmeURI + 'brapanties' + ext,
+        ident: 'brapanties'
       }
     ];
     return {

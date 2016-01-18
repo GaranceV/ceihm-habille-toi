@@ -20,13 +20,27 @@ angular.module('habilleToiApp')
     $scope.chaussures = Chaussures.all();
     $scope.accessoires = Accessoires.all();
 
-    $scope.newClothes = function(clothesJSON) {
+    $scope.newUnderwear = function(clothesJSON) {
       if (clothesJSON.ident == 'bra' && $scope.mannequin.ident == 'naked') {
         $scope.mannequin = Mannequins.getIdent('bra');
-        console.log('i found the dummy');
+        console.log('you clicked on bra and the dummy is naked');
+        findAndRemove($scope.sousvetements, 'ident', clothesJSON.ident);
+
+      }
+      else if (clothesJSON.ident == 'panties' && $scope.mannequin.ident == 'naked') {
+        $scope.mannequin = Mannequins.getIdent('panties');
+        console.log('you clicked on panties and the dummy is naked');
+        findAndRemove($scope.sousvetements, 'ident', clothesJSON.ident);
+
+      }
+      else if (clothesJSON.ident == 'panties' && $scope.mannequin.ident == 'bra'
+      || clothesJSON.ident == 'bra' && $scope.mannequin.ident == 'panties' ) {
+        $scope.mannequin = Mannequins.getIdent('brapanties');
+        console.log('you clicked on panties and the dummy has a bra');
+        findAndRemove($scope.sousvetements, 'ident', clothesJSON.ident);
+
       }
       console.log('you clicked');
-      findAndRemove($scope.sousvetements, 'ident', clothesJSON.ident);
     //  $scope.sousvetements
     };
 
