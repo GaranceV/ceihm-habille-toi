@@ -8,9 +8,9 @@
  * Controller of the habilleToiApp
  */
 angular.module('habilleToiApp')
-  .controller('MannequinCtrl', function ($scope, MannequinTetes, $routeParams) {
+  .controller('MannequinCtrl', function ($scope, Mannequins, $routeParams) {
 
-    $scope.mannequins = MannequinTetes.all();
+    $scope.mannequins = Mannequins.all();
     $scope.saisonId= $routeParams.saisonId;
 
   });
