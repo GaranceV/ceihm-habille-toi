@@ -54,5 +54,54 @@
     "name": "femme",
     "image": "../images/mannequins/underwear.png",
     "ident": "underwear"
+  },
+  {
+    "id" : 9,
+    "name" : "femme",
+    "image" : "../images/mannequins/brashirt.png",
+    "ident": "brashirt"
+  },
+  {
+    "id" : 10,
+    "name" : "femme",
+    "image" : "../images/mannequins/brapantiesshirt.png",
+    "ident": "brapantiesshirt"
+  },
+  {
+    "id" : 11,
+    "name" : "femme",
+    "image" : "../images/mannequins/brasocksshirt.png",
+    "ident": "brasocksshirt"
+  },
+  {
+    "id" : 12,
+    "name" : "femme",
+    "image" : "../images/mannequins/underwearshirt.png",
+    "ident": "underwearshirt"
+  },
+  {
+    "id" : 13,
+    "name" : "femme",
+    "image" : "../images/mannequins/brashirtpullover.png",
+    "ident": "brashirtpullover"
+  },
+  {
+    "id" : 14,
+    "name" : "femme",
+    "image" : "../images/mannequins/brapantiesshirtpullover.png",
+    "ident": "brapantiesshirtpullover"
+  },
+  {
+    "id" : 15,
+    "name" : "femme",
+    "image" : "../images/mannequins/brasocksshirtpullover.png",
+    "ident": "brasocksshirtpullover"
+  },
+  {
+    "id" : 16,
+    "name" : "femme",
+    "image" : "../images/mannequins/underwearshirtpullover.png",
+    "ident": "underwearshirtpullover"
   }
+
 ]

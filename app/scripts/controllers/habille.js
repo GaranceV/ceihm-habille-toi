@@ -119,15 +119,63 @@ angular.module('habilleToiApp')
 $scope.newShirt = function (clothesJSON) {
   console.log('you clicked on a shirt');
   if ($scope.mannequin.ident == 'underwear') {
-    //dress
-    if (clothesJSON.ident == 'bra' || clothesJSON.ident == 'socks' || clothesJSON.ident == 'panties') {
+    // if underwear go shirt
+    if (clothesJSON.ident == 'underwearshirt') {
       $scope.mannequin = Mannequins.getIdent(clothesJSON.ident);
-      findAndRemove($scope.sousvetements, 'ident', clothesJSON.ident);
+      findAndRemove($scope.hauts, 'ident', clothesJSON.ident);
     }
     else {
       $scope.audio_bad.play();
-      findAndFilter($scope.sousvetements, 'ident', clothesJSON.ident);
+      findAndFilter($scope.hauts, 'ident', clothesJSON.ident);
     }
+  }
+  else if ($scope.mannequin.ident == 'bra') {
+    //if bra go shirt
+    if (clothesJSON.ident == 'brashirt') {
+      $scope.mannequin = Mannequins.getIdent(clothesJSON.ident);
+      findAndRemove($scope.hauts, 'ident', clothesJSON.ident);
+    }
+    else {
+      $scope.audio_bad.play();
+      findAndFilter($scope.hauts, 'ident', clothesJSON.ident);
+    }
+  }
+  else if ($scope.mannequin.ident == 'brapanties') {
+    //if bra + panties go shirt
+    if (clothesJSON.ident == 'brapantiesshirt') {
+      $scope.mannequin = Mannequins.getIdent(clothesJSON.ident);
+      findAndRemove($scope.hauts, 'ident', clothesJSON.ident);
+    }
+    else {
+      $scope.audio_bad.play();
+      findAndFilter($scope.hauts, 'ident', clothesJSON.ident);
+    }
+  }
+  else if ($scope.mannequin.ident == 'brasocks') {
+    // ig bra + socks go shirt
+    if (clothesJSON.ident == 'brasocksshirt') {
+      $scope.mannequin = Mannequins.getIdent(clothesJSON.ident);
+      findAndRemove($scope.hauts, 'ident', clothesJSON.ident);
+    }
+    else {
+      $scope.audio_bad.play();
+      findAndFilter($scope.hauts, 'ident', clothesJSON.ident);
+    }
+  }
+  else if ($scope.mannequin.ident.match("shirt$")) {
+    //if anything + shirt go anything + pullover
+    if (clothesJSON.ident.match("pullover$")) {
+      $scope.mannequin = Mannequins.getIdent(clothesJSON.ident);
+      findAndRemove($scope.hauts, 'ident', clothesJSON.ident);
+    }
+    else {
+      $scope.audio_bad.play();
+      findAndFilter($scope.hauts, 'ident', clothesJSON.ident);
+    }
+  }
+  else {
+    $scope.audio_bad.play();
+    findAndFilter($scope.hauts, 'ident', clothesJSON.ident);
   }
 
 };
