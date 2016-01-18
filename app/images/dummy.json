@@ -102,6 +102,18 @@
     "name" : "femme",
     "image" : "../images/mannequins/underwearshirtpullover.png",
     "ident": "underwearshirtpullover"
+  },
+  {
+    "id" : 17,
+    "name" : "femme",
+    "image" : "../images/mannequins/pantiespants.png",
+    "ident": "pantiespants"
+  },
+  {
+    "id" : 18,
+    "name" : "femme",
+    "image" : "../images/mannequins/sockspantiespants.png",
+    "ident": "sockspantiespants"
   }
 
 ]
