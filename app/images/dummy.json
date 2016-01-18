@@ -47,16 +47,10 @@
     "id": 7,
     "name": "femme",
     "image": "../images/mannequins/sockspanties.png",
-    "ident": "pantiessocks"
-  },
-  {
-    "id": 8,
-    "name": "femme",
-    "image": "../images/mannequins/sockspanties.png",
     "ident": "sockspanties"
   },
   {
-    "id": 9,
+    "id": 8,
     "name": "femme",
     "image": "../images/mannequins/underwear.png",
     "ident": "underwear"
