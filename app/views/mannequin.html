@@ -11,8 +11,8 @@
   <div class="col-md-3"></div>
   <div ng-repeat="mannequin in mannequins">
     <div class="col-xs-6 col-md-3">
-      <div class="text-uppercase">{{mannequin.name}}</div>
       <a href="/#/saison/{{saisonId}}/mannequin/{{mannequin.id}}" class="thumbnail">
+        <div class="text-capitalize text-info">{{mannequin.name}}</div>
         <img ng-src="{{mannequin.image}}" alt="mannequin">
       </a>
     </div>
