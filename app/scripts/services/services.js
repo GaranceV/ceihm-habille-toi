@@ -117,18 +117,25 @@ angular.module('habilleToiApp')
       image: '../images/vetements/soutien-gorge.png',
       ident: 'bra'
     },
+    {
+      id: 2,
+      name : 'maillot',
+      image : '../images/vetements/maillot.png',
+      ident: 'body'
+    },
+      {
+        id: 3,
+        name: 'chaussettes',
+        image: '../images/vetements/chaussettes_resize.png',
+        ident: 'socks'
+      },
       {
         id: 1,
         name: 'culotte',
         image: '../images/vetements/culotte.png',
         ident: 'panties'
-      },
-      {
-        id: 2,
-        name: 'maillot',
-        image: '../images/vetements/maillot.png',
-        ident: 'body'
       }
+
     ];
     return {
       all: function () {
@@ -148,13 +155,15 @@ angular.module('habilleToiApp')
     var hauts = [{
       id: 0,
       name: 'pull',
-      image: '../images/vetements/pull_armoire.png'
+      image: '../images/vetements/pull_armoire.png',
+      ident:'pullover'
 
     },
       {
         id: 1,
         name: 'tunique',
-        image: '../images/vetements/tunique_resize.png'
+        image: '../images/vetements/tunique_resize.png',
+        ident:'shirt'
       }
     ];
     return {
