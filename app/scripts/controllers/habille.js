@@ -41,7 +41,29 @@ angular.module('habilleToiApp')
 
       }
       console.log('you clicked');
-    //  $scope.sousvetements
+    };
+
+    $scope.newShirt = function(clothesJSON) {
+      if (clothesJSON.ident == 'bra' && $scope.mannequin.ident == 'naked') {
+        $scope.mannequin = Mannequins.getIdent('bra');
+        console.log('you clicked on bra and the dummy is naked');
+        findAndRemove($scope.sousvetements, 'ident', clothesJSON.ident);
+
+      }
+      else if (clothesJSON.ident == 'panties' && $scope.mannequin.ident == 'naked') {
+        $scope.mannequin = Mannequins.getIdent('panties');
+        console.log('you clicked on panties and the dummy is naked');
+        findAndRemove($scope.sousvetements, 'ident', clothesJSON.ident);
+
+      }
+      else if (clothesJSON.ident == 'panties' && $scope.mannequin.ident == 'bra'
+        || clothesJSON.ident == 'bra' && $scope.mannequin.ident == 'panties' ) {
+        $scope.mannequin = Mannequins.getIdent('brapanties');
+        console.log('you clicked on panties and the dummy has a bra');
+        findAndRemove($scope.sousvetements, 'ident', clothesJSON.ident);
+
+      }
+      console.log('you clicked');
     };
 
     function findAndRemove(array, property, value) {

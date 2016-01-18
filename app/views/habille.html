@@ -17,7 +17,7 @@
         <div class="row" style="background-image: url('../images/armoire-bg.jpg');">
           <strong>Hauts</strong>
           <div ng-repeat="haut in hauts">
-            <div class="col-lg-2">
+            <div ng-click="newShirt(haut)" class="col-lg-2">
               <img class="navbar-brand" style="padding: 0.5px 32px;" ng-src="{{haut.image}}">
             </div>
           </div>
