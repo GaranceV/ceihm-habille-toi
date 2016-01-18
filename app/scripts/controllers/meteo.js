@@ -9,9 +9,5 @@
  */
 angular.module('habilleToiApp')
   .controller('MeteoCtrl', function () {
-    this.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
+
   });
