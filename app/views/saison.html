@@ -11,8 +11,8 @@
 <div class="row">
   <div ng-repeat="saison in saisons">
     <div class="col-xs-6 col-md-3">
-      <div class="text-uppercase">{{saison.name}}</div>
       <a href="/#/saison/{{saison.id}}" class="thumbnail">
+        <h4 class="text-capitalize text-info">{{saison.name}}</h4>
         <img ng-src="{{saison.image}}" alt="Printemps">
       </a>
     </div>
