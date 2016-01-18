@@ -78,7 +78,7 @@
         <div class="row" style="background-image: url('../images/armoire-bg.jpg'); background-size: cover">
           <strong>Accessoires</strong>
           <div ng-repeat="accessoire in accessoires">
-            <div class="col-lg-2">
+            <div ng-click="newScarf(accessoire)" class="col-lg-2">
               <img class="navbar-brand" style="padding: 0.5px 32px;" ng-src="{{accessoire.image}}">
               <div style="position: absolute; left:60px; top: 20px;z-index: 2;" class="hidden croix-rouge" id="{{accessoire.ident}}">
                 <div class="text-danger">
