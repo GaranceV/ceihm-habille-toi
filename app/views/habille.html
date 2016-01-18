@@ -36,7 +36,7 @@
         <div class="row" style="background-image: url('../images/armoire-bg.jpg'); background-size: cover">
           <strong>Bas</strong>
           <div ng-repeat="ba in bas">
-            <div class="col-lg-2">
+            <div ng-click="newPants(ba)" class="col-lg-2">
               <img class="navbar-brand" style="padding: 0.5px 32px;" ng-src="{{ba.image}}">
               <div style="position: absolute; left:60px; top: 20px;z-index: 2;" class="hidden croix-rouge" id="{{ba.ident}}">
                 <div class="text-danger">
