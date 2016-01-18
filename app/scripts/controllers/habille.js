@@ -8,7 +8,7 @@
  * Controller of the habilleToiApp
  */
 angular.module('habilleToiApp')
-  .controller('HabilleCtrl', function ($scope, Saisons, Mannequins,Sousvetements,Hauts, Bas, Vests,Chaussures,Accessoires, $routeParams) {
+  .controller('HabilleCtrl', function ($scope, Saisons, Mannequins,Sousvetements,Hauts, Bas, Vests,Chaussures,Accessoires, $routeParams, $document) {
 
     $scope.saison = Saisons.get($routeParams.saisonId);
     $scope.mannequin = Mannequins.get($routeParams.mannequinId);
@@ -104,7 +104,7 @@ console.log('you clicked on a shirt');
       array.forEach(function(result, index) {
         if(result[property] === value) {
           //gray the chosen image
-
+          angular.element($document[0].getElementById(result[property])).removeClass('hidden');
         }
       });
     }
