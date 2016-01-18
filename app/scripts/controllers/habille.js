@@ -253,7 +253,7 @@ $scope.newPants = function (clothesJSON) {
     $scope.audio_bad.play();
     findAndFilter($scope.hauts, 'ident', clothesJSON.ident);
   }
-}
+};
 
 function findAndRemove(array, property, value) {
   array.forEach(function (result, index) {
