@@ -58,13 +58,15 @@ angular.module('habilleToiApp')
     var mannequins = [{
       id: 0,
       name : 'homme',
-      image : '../images/mannequins/corpsHomme.png'
+      image : '../images/mannequins/corpsHomme.png',
+      teteimage :  '../images/mannequins/homme_tete.png'
 
     },
       {
         id: 1,
         name : 'femme',
         image : '../images/mannequins/corpsFemme.png',
+        teteimage: '../images/mannequins/femme_tete.png'
       }
     ];
     return {
@@ -75,33 +77,6 @@ angular.module('habilleToiApp')
         for (var i = 0; i < mannequins.length; i++) {
           if (mannequins[i].id === parseInt(mannequinId)) {
             return mannequins[i];
-          }
-        }
-      }
-    };
-
-  })
-  .factory('MannequinTetes', function () {
-    var mannequintetes = [{
-      id: 0,
-      name : 'homme',
-      image : '../images/mannequins/homme_tete.png'
-
-    },
-      {
-        id: 1,
-        name : 'femme',
-        image : '../images/mannequins/femme_tete.png'
-      }
-    ];
-    return {
-      all: function() {
-        return mannequintetes;
-      },
-      get: function(mannequinteteId) {
-        for (var i = 0; i < mannequintetes.length; i++) {
-          if (mannequintetes[i].id === parseInt(mannequinteteId)) {
-            return mannequintetes[i];
           }
         }
       }
