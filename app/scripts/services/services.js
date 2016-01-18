@@ -163,21 +163,23 @@ angular.module('habilleToiApp')
   })
   .factory('Bas', function () {
     var bas = [{
-      id: 0,
-      name: 'pantalon',
-      image: '../images/vetements/pantalon_resize.png'
-
-    },
-      {
         id: 2,
         name: 'pantalon best',
-        image: '../images/vetements/pantalon_resize_best.png'
-
+        image: '../images/vetements/pantalon_resize_best.png',
+        ident: 'pants'
       },
       {
         id: 1,
         name: 'short pantalon',
-        image: '../images/vetements/short_resize.png'
+        image: '../images/vetements/short_resize.png',
+        ident: 'short'
+      },
+      {
+        id: 3,
+        name: 'jupe',
+        image: '../images/vetements/jupe.png',
+        ident: 'skirt'
+
       }
     ];
     return {
