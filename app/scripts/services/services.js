@@ -121,13 +121,13 @@ angular.module('habilleToiApp')
       id: 2,
       name : 'maillot',
       image : '../images/vetements/maillot.png',
-      ident: body
+      ident: 'body'
     },
       {
         id: 3,
         name: 'chaussettes',
         image: '../images/vetements/chaussettes_resize.png',
-        ident: socks
+        ident: 'socks'
       },
       {
         id: 1,
@@ -155,13 +155,15 @@ angular.module('habilleToiApp')
     var hauts = [{
       id: 0,
       name: 'pull',
-      image: '../images/vetements/pull_armoire.png'
+      image: '../images/vetements/pull_armoire.png',
+      ident:'pullover'
 
     },
       {
         id: 1,
         name: 'tunique',
-        image: '../images/vetements/tunique_resize.png'
+        image: '../images/vetements/tunique_resize.png',
+        ident:'shirt'
       }
     ];
     return {
