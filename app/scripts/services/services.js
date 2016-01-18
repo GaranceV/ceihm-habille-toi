@@ -98,7 +98,12 @@ angular.module('habilleToiApp')
       id: 2,
       name : 'maillot',
       image : '../images/vetements/maillot.png'
-    }
+    },
+      {
+        id: 3,
+        name : 'chaussettes',
+        image : '../images/vetements/chaussettes_resize.png'
+      }
     ];
     return {
       all: function() {
