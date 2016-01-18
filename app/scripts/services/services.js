@@ -200,8 +200,8 @@ angular.module('habilleToiApp')
     var vests = [{
       id: 0,
       name: 'manteau',
-      image: '../images/vetements/manteau_armoire.png'
-
+      image: '../images/vetements/manteau_armoire.png',
+      ident: 'jacket'
     }
     ];
     return {
