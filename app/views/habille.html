@@ -20,7 +20,7 @@
         <div class="row" style="background-image: url('../images/armoire-bg.jpg');background-size: cover">
           <strong>Hauts</strong>
           <div ng-repeat="haut in hauts">
-            <div class="col-lg-2">
+            <div ng-click="newShirt(haut)" class="col-lg-2">
               <img class="navbar-brand" style="padding: 0.5px 32px;" ng-src="{{haut.image}}">
             </div>
           </div>
@@ -54,7 +54,7 @@
         </div>
 
         <div class="row" style="background-image: url('../images/armoire-bg.jpg'); background-size: cover">
-          <strong>Sccessoires</strong>
+          <strong>Accessoires</strong>
           <div ng-repeat="accessoire in accessoires">
             <div class="col-lg-2">
               <img class="navbar-brand" style="padding: 0.5px 32px;" ng-src="{{accessoire.image}}">
