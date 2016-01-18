@@ -10,7 +10,7 @@
           <div ng-repeat="sousvetement in sousvetements">
             <div ng-click="newUnderwear(sousvetement)" class="col-lg-2">
               <img class="navbar-brand" style="padding: 0.5px 32px;"  ng-src="{{sousvetement.image}}">
-              <div style="position: absolute; left:60px; top: 20px;z-index: 2;" class="hidden" id="{{sousvetement.ident}}">
+              <div style="position: absolute; left:60px; top: 20px;z-index: 2;" class="hidden croix-rouge" id="{{sousvetement.ident}}">
                 <div class="text-danger">
                   <i class="fa fa-times fa-3x"></i>
                 </div>
@@ -24,7 +24,7 @@
           <div ng-repeat="haut in hauts">
             <div ng-click="newShirt(haut)" class="col-lg-2">
               <img class="navbar-brand" style="padding: 0.5px 32px;" ng-src="{{haut.image}}">
-              <div style="position: absolute; left:60px; top: 20px;z-index: 2;" class="hidden" id="{{haut.ident}}">
+              <div style="position: absolute; left:60px; top: 20px;z-index: 2;" class="hidden croix-rouge" id="{{haut.ident}}">
                 <div class="text-danger">
                   <i class="fa fa-times fa-3x"></i>
                 </div>
@@ -38,7 +38,7 @@
           <div ng-repeat="ba in bas">
             <div class="col-lg-2">
               <img class="navbar-brand" style="padding: 0.5px 32px;" ng-src="{{ba.image}}">
-              <div style="position: absolute; left:60px; top: 20px;z-index: 2;" class="hidden" id="{{ba.ident}}">
+              <div style="position: absolute; left:60px; top: 20px;z-index: 2;" class="hidden croix-rouge" id="{{ba.ident}}">
                 <div class="text-danger">
                   <i class="fa fa-times fa-3x"></i>
                 </div>
@@ -52,7 +52,7 @@
           <div ng-repeat="vest in vests">
             <div class="col-lg-2">
               <img class="navbar-brand" style="padding: 0.5px 32px;" ng-src="{{vest.image}}">
-              <div style="position: absolute; left:60px; top: 20px;z-index: 2;" class="hidden" id="{{vest.ident}}">
+              <div style="position: absolute; left:60px; top: 20px;z-index: 2;" class="hidden croix-rouge" id="{{vest.ident}}">
                 <div class="text-danger">
                   <i class="fa fa-times fa-3x"></i>
                 </div>
@@ -66,7 +66,7 @@
           <div ng-repeat="ch in chaussures">
             <div class="col-lg-2">
               <img class="navbar-brand" style="padding: 0.5px 32px;" ng-src="{{ch.image}}">
-              <div style="position: absolute; left:60px; top: 20px;z-index: 2;" class="hidden" id="{{ch.ident}}">
+              <div style="position: absolute; left:60px; top: 20px;z-index: 2;" class="hidden croix-rouge" id="{{ch.ident}}">
                 <div class="text-danger">
                   <i class="fa fa-times fa-3x"></i>
                 </div>
@@ -80,7 +80,7 @@
           <div ng-repeat="accessoire in accessoires">
             <div class="col-lg-2">
               <img class="navbar-brand" style="padding: 0.5px 32px;" ng-src="{{accessoire.image}}">
-              <div style="position: absolute; left:60px; top: 20px;z-index: 2;" class="hidden" id="{{accessoire.ident}}">
+              <div style="position: absolute; left:60px; top: 20px;z-index: 2;" class="hidden croix-rouge" id="{{accessoire.ident}}">
                 <div class="text-danger">
                   <i class="fa fa-times fa-3x"></i>
                 </div>
