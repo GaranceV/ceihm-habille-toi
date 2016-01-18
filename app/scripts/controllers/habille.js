@@ -118,6 +118,18 @@ angular.module('habilleToiApp')
 
 $scope.newShirt = function (clothesJSON) {
   console.log('you clicked on a shirt');
+  if ($scope.mannequin.ident == 'underwear') {
+    //dress
+    if (clothesJSON.ident == 'bra' || clothesJSON.ident == 'socks' || clothesJSON.ident == 'panties') {
+      $scope.mannequin = Mannequins.getIdent(clothesJSON.ident);
+      findAndRemove($scope.sousvetements, 'ident', clothesJSON.ident);
+    }
+    else {
+      $scope.audio_bad.play();
+      findAndFilter($scope.sousvetements, 'ident', clothesJSON.ident);
+    }
+  }
+
 };
 
 function findAndRemove(array, property, value) {
