@@ -22,6 +22,11 @@
           <div ng-repeat="haut in hauts">
             <div ng-click="newShirt(haut)" class="col-lg-2">
               <img class="navbar-brand" style="padding: 0.5px 32px;" ng-src="{{haut.image}}">
+              <div style="position: absolute; left:60px; top: 20px;z-index: 2;" class="hidden" id="haut_{{haut.id}}">
+                <div class="text-danger">
+                  <i class="fa fa-times fa-3x"></i>
+                </div>
+              </div>
             </div>
           </div>
         </div>
