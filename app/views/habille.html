@@ -36,7 +36,7 @@
         <div class="row" style="background-image: url('../images/armoire-bg.jpg'); background-size: cover">
           <strong>Bas</strong>
           <div ng-repeat="ba in bas">
-            <div class="col-lg-2">
+            <div ng-click="newPants(ba)" class="col-lg-2">
               <img class="navbar-brand" style="padding: 0.5px 32px;" ng-src="{{ba.image}}">
               <div style="position: absolute; left:60px; top: 20px;z-index: 2;" class="hidden croix-rouge" id="{{ba.ident}}">
                 <div class="text-danger">
@@ -50,7 +50,7 @@
         <div class="row" style="background-image: url('../images/armoire-bg.jpg');background-size: cover ">
           <strong>Vests</strong>
           <div ng-repeat="vest in vests">
-            <div class="col-lg-2">
+            <div ng-click="newJacket(vest)" class="col-lg-2">
               <img class="navbar-brand" style="padding: 0.5px 32px;" ng-src="{{vest.image}}">
               <div style="position: absolute; left:60px; top: 20px;z-index: 2;" class="hidden croix-rouge" id="{{vest.ident}}">
                 <div class="text-danger">
@@ -64,7 +64,7 @@
         <div class="row" style="background-image: url('../images/armoire-bg.jpg'); background-size: cover">
           <strong>Chaussures</strong>
           <div ng-repeat="ch in chaussures">
-            <div class="col-lg-2">
+            <div ng-click="newShoes(ch)" class="col-lg-2">
               <img class="navbar-brand" style="padding: 0.5px 32px;" ng-src="{{ch.image}}">
               <div style="position: absolute; left:60px; top: 20px;z-index: 2;" class="hidden croix-rouge" id="{{ch.ident}}">
                 <div class="text-danger">
@@ -78,7 +78,7 @@
         <div class="row" style="background-image: url('../images/armoire-bg.jpg'); background-size: cover">
           <strong>Accessoires</strong>
           <div ng-repeat="accessoire in accessoires">
-            <div class="col-lg-2">
+            <div ng-click="newScarf(accessoire)" class="col-lg-2">
               <img class="navbar-brand" style="padding: 0.5px 32px;" ng-src="{{accessoire.image}}">
               <div style="position: absolute; left:60px; top: 20px;z-index: 2;" class="hidden croix-rouge" id="{{accessoire.ident}}">
                 <div class="text-danger">
