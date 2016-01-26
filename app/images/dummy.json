@@ -21,7 +21,6 @@
   {
     "id": 3,
     "name": "femme",
-
     "image": "../images/mannequins/panties.png",
     "ident": "panties"
   },
@@ -352,7 +351,7 @@
   {
     "id" : 57,
     "name" : "femme",
-    "image" : "../images/mannequins/brashirtpanties.png",
+    "image" : "../images/mannequins/brapantiesshirt.png",
     "ident": "brashirtpanties"
   },
   {
