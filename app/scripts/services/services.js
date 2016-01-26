@@ -11,29 +11,29 @@ angular.module('habilleToiApp')
 
     var saisons = [{
       id: 0,
-      name : 'printemps',
-      des: 'il fait beau au printemps',
+      name : 'Printemps',
+      des: 'Il fait beau au printemps',
       image : '../images/saisons/printemps.png',
       bgimage: '../images/saisons/printemps-bg.jpg'
     },
       {
         id: 1,
-        name: 'ete',
-        des: 'il fait chaud en été',
+        name: 'Eté',
+        des: 'Il fait chaud en été',
         image: '../images/saisons/ete.png',
         bgimage: '../images/saisons/ete-bg.jpg'
       },
       {
         id: 2,
-        name : 'automne',
-        des: 'il fait frais en automne',
+        name : 'Automne',
+        des: 'Il fait frais en automne',
         image : '../images/saisons/automne.png',
         bgimage : '../images/saisons/automne-bg.jpg'
       },
       {
         id: 3,
-        name: 'hiver',
-        des: 'il fait froid en hiver',
+        name: 'Hiver',
+        des: 'Il fait froid en hiver',
         image: '../images/saisons/hiver.png',
         bgimage: '../images/saisons/hiver-bg.jpg'
       }
