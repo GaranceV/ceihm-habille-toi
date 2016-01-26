@@ -357,9 +357,16 @@
   {
     "id" : 58,
     "name" : "femme",
-    "image" : "../images/mannequins/brashirtsocks.png",
+    "image" : "../images/mannequins/brasocksshirt.png",
     "ident": "brashirtsocks"
+  },
+  {
+    "id" : 59,
+    "name" : "femme",
+    "image" : "../images/mannequins/underwearshirtpulloverpantsshoes.png",
+    "ident": "underwearpantsshoesshirtpullover"
   }
+
 
 
 ]
