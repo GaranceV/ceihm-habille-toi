@@ -23,6 +23,7 @@ angular.module('habilleToiApp')
 
 
     $scope.newUnderwear = function (clothesJSON) {
+      console.log('mannequin : ', $scope.mannequin.ident, ' - clicked on : ', clothesJSON.ident);
       if ($scope.mannequin.ident == 'naked') {
         //dress
         if (clothesJSON.ident == 'bra' || clothesJSON.ident == 'socks' || clothesJSON.ident == 'panties') {
@@ -150,6 +151,40 @@ angular.module('habilleToiApp')
           findAndFilter($scope.sousvetements, 'ident', clothesJSON.ident);
         }
       }
+      else if  ($scope.mannequin.ident == 'brasocksshirtpullover' ) {
+        //if socks go underwear
+        if (clothesJSON.ident == 'panties') {
+          $scope.mannequin = Mannequins.getIdent('underwearshirtpullover');
+          //Enlever le croix rouge quand choisir un bon vetement
+          angular.element($document[0].getElementsByClassName('croix-rouge')).addClass('hidden');
+          findAndRemove($scope.sousvetements, 'ident', clothesJSON.ident);
+        }
+        else {
+          //error
+          $scope.audio_bad.play();
+          findAndFilter($scope.sousvetements, 'ident', clothesJSON.ident);
+        }
+      }
+      else if  ($scope.mannequin.ident == 'brashirtpullover' ) {
+        //if socks go brasocksshirtpullover
+        if (clothesJSON.ident == 'socks') {
+          $scope.mannequin = Mannequins.getIdent('brasocksshirtpullover');
+          //Enlever le croix rouge quand choisir un bon vetement
+          angular.element($document[0].getElementsByClassName('croix-rouge')).addClass('hidden');
+          findAndRemove($scope.sousvetements, 'ident', clothesJSON.ident);
+        }
+        else if (clothesJSON.ident == 'panties') {
+          $scope.mannequin = Mannequins.getIdent('brapantiesshirtpullover');
+          //Enlever le croix rouge quand choisir un bon vetement
+          angular.element($document[0].getElementsByClassName('croix-rouge')).addClass('hidden');
+          findAndRemove($scope.sousvetements, 'ident', clothesJSON.ident);
+        }
+        else {
+          //error
+          $scope.audio_bad.play();
+          findAndFilter($scope.sousvetements, 'ident', clothesJSON.ident);
+        }
+      }
       else {
         //error
         $scope.audio_bad.play();
@@ -159,7 +194,7 @@ angular.module('habilleToiApp')
 
 
 $scope.newShirt = function (clothesJSON) {
-  console.log('you clicked on a shirt');
+  console.log('mannequin : ', $scope.mannequin.ident, ' - clicked on : ', clothesJSON.ident);
   if ($scope.mannequin.ident == 'underwear') {
     // if underwear go shirt
     if (clothesJSON.ident == 'shirt') {
@@ -232,7 +267,8 @@ $scope.newShirt = function (clothesJSON) {
       findAndFilter($scope.hauts, 'ident', clothesJSON.ident);
     }
   }
-  else if ($scope.mannequin.ident.match("shirt$")) {
+  //console.log(string.indexOf(substring) > -1);
+  else if (($scope.mannequin.ident).indexOf("shirt") > -1) {
     //if anything + shirt go anything + pullover
     if (clothesJSON.ident == 'pullover') {
       $scope.mannequin = Mannequins.getIdent($scope.mannequin.ident+clothesJSON.ident);
@@ -264,7 +300,7 @@ $scope.newShirt = function (clothesJSON) {
 };
 
 $scope.newPants = function (clothesJSON) {
-  console.log('you clicked on a pants');
+  console.log('mannequin : ', $scope.mannequin.ident, ' - clicked on : ', clothesJSON.ident);
   if ($scope.mannequin.ident == 'panties') {
     // if underwear go shirt
     if (clothesJSON.ident == 'pants') {
@@ -368,7 +404,7 @@ $scope.newPants = function (clothesJSON) {
 };
 
 $scope.newShoes = function (clothesJSON) {
-  console.log('you clicked on the shoes');
+  console.log('mannequin : ', $scope.mannequin.ident, ' - clicked on : ', clothesJSON.ident);
   if ($scope.mannequin.ident == 'sockspantiespants') {
     // if sock + panties + pants go to shoes
     if (clothesJSON.ident == 'shoes') {
@@ -424,7 +460,7 @@ $scope.newShoes = function (clothesJSON) {
 };
 
 $scope.newJacket = function (clothesJSON) {
-  console.log('you clicked on the jacket');
+  console.log('mannequin : ', $scope.mannequin.ident, ' - clicked on : ', clothesJSON.ident);
   if ($scope.mannequin.ident == 'brashirtpullover') {
     // if bra + shirt + pullover go to jacket
     if (clothesJSON.ident == 'jacket') {
@@ -504,7 +540,7 @@ $scope.newJacket = function (clothesJSON) {
 };
 
 $scope.newScarf = function (clothesJSON) {
-  console.log('you clicked on the scarf');
+  console.log('mannequin : ', $scope.mannequin.ident, ' - clicked on : ', clothesJSON.ident);
   if ($scope.mannequin.ident.match("shirt$")) {
     // if anything with a shirt
     if (clothesJSON.ident == 'scarf') {

@@ -33,7 +33,7 @@
   {
     "id": 5,
     "name": "femme",
-    "image": "../images/mannequins/sock.png",
+    "image": "../images/mannequins/MANQUE.png",
     "ident": "socks"
   },
   {
@@ -45,7 +45,7 @@
   {
     "id": 7,
     "name": "femme",
-    "image": "../images/mannequins/sockspanties.png",
+    "image": "../images/mannequins/MANQUE.png",
     "ident": "sockspanties"
   },
   {
@@ -333,7 +333,7 @@
   {
     "id" : 54,
     "name" : "femme",
-    "image" : "../images/mannequins/underwearpantsshoesshirt.png",
+    "image" : "../images/mannequins/underwearshirtpantsshoes.png",
     "ident": "underwearpantsshoesshirt"
   },
   {
@@ -360,5 +360,6 @@
     "image" : "../images/mannequins/brashirtsocks.png",
     "ident": "brashirtsocks"
   }
+
 
 ]
