@@ -115,8 +115,13 @@ angular.module('habilleToiApp')
         name: 'culotte',
         image: '../images/vetements/culotte.png',
         ident: 'panties'
+      },
+      {
+        id: 4,
+        name: 'collants',
+        image: '../images/vetements/tightsbox.png',
+        ident: 'tights'
       }
-
     ];
     return {
       all: function () {
