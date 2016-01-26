@@ -297,13 +297,13 @@
   {
     "id" : 49,
     "name" : "femme",
-    "image" : "../images/mannequins/underwearshirtpantsshoesscarf.png",
+    "image" : "../images/mannequins/MANQUE.png",
     "ident": "underwearshirtpantsshoesscarf"
   },
   {
     "id" : 50,
     "name" : "femme",
-    "image" : "../images/mannequins/underwearshirtpulloverpantsshoesscarf.png",
+    "image" : "../images/mannequins/MANQUE.png",
     "ident": "underwearshirtpulloverpantsshoesscarf"
   },
   {
@@ -365,8 +365,48 @@
     "name" : "femme",
     "image" : "../images/mannequins/underwearshirtpulloverpantsshoes.png",
     "ident": "underwearpantsshoesshirtpullover"
+  },
+  {
+    "id" : 60,
+    "name" : "femme",
+    "image" : "../images/mannequins/underwearshirtpulloverpantsshoesglovesscarf.png",
+    "ident": "underwearshirtpulloverpantsshoesglovesscarf"
+  },
+  {
+    "id" : 61,
+    "name" : "femme",
+    "image" : "../images/mannequins/underwearshirtpulloverpantsshoeshat.png",
+    "ident": "underwearshirtpulloverpantsshoeshat"
+  },
+  {
+    "id" : 62,
+    "name" : "femme",
+    "image" : "../images/mannequins/underwearshirtpulloverpantsshoeshatgloves.png",
+    "ident": "underwearshirtpulloverpantsshoeshatgloves"
+  },
+  {
+    "id" : 63,
+    "name" : "femme",
+    "image" : "../images/mannequins/underwearshirtpulloverpantsshoesjackethat.png",
+    "ident": "underwearshirtpulloverpantsshoesjackethat"
+  },
+  {
+    "id" : 64,
+    "name" : "femme",
+    "image" : "../images/mannequins/underwearshirtpulloverpantsshoesjackethatgloves.png",
+    "ident": "underwearshirtpulloverpantsshoesjackethatgloves"
+  },
+  {
+    "id" : 65,
+    "name" : "femme",
+    "image" : "../images/mannequins/underwearshirtpulloverpantsshoesjackethatscarf.png",
+    "ident": "underwearshirtpulloverpantsshoesjackethatscarf"
+  },
+  ,
+  {
+    "id" : 66,
+    "name" : "femme",
+    "image" : "../images/mannequins/pantsall.png",
+    "ident": "pantsall"
   }
-
-
-
 ]
