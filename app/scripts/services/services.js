@@ -200,8 +200,8 @@ angular.module('habilleToiApp')
     var vests = [{
       id: 0,
       name: 'manteau',
-      image: '../images/vetements/manteau_armoire.png'
-
+      image: '../images/vetements/manteau_armoire.png',
+      ident: 'jacket'
     }
     ];
     return {
@@ -221,8 +221,8 @@ angular.module('habilleToiApp')
     var chaussures = [{
       id: 0,
       name: 'chaussure',
-      image: '../images/vetements/chaussures_resize.png'
-
+      image: '../images/vetements/chaussures_resize.png',
+      ident: 'shoes'
     }
     ];
     return {
@@ -242,12 +242,14 @@ angular.module('habilleToiApp')
     var accessoires = [{
       id: 0,
       name: 'echarpe',
-      image: '../images/vetements/écharpe.png'
+      image: '../images/vetements/écharpe.png',
+      ident: 'scarf'
     },
       {
         id: 1,
         name: 'gant',
-        image: '../images/vetements/gant_droit.png'
+        image: '../images/vetements/gant_droit.png',
+        ident: 'gloves'
       }
     ];
     return {
