@@ -175,30 +175,6 @@
     "ident": "underwearshirtpulloverpantsshoes"
   },
   {
-    "id" : 29,
-    "name" : "femme",
-    "image" : "../images/mannequins/brashirtpulloverjacket.png",
-    "ident": "brashirtpulloverjacket"
-  },
-  {
-    "id" : 30,
-    "name" : "femme",
-    "image" : "../images/mannequins/brapantiesshirtpulloverjacket.png",
-    "ident": "brapantiesshirtpulloverjacket"
-  },
-  {
-    "id" : 31,
-    "name" : "femme",
-    "image" : "../images/mannequins/brasocksshirtpulloverjacket.png",
-    "ident": "brasocksshirtpulloverjacket"
-  },
-  {
-    "id" : 32,
-    "name" : "femme",
-    "image" : "../images/mannequins/underwearshirtpulloverjacket.png",
-    "ident": "underwearshirtpulloverjacket"
-  },
-  {
     "id" : 33,
     "name" : "femme",
     "image" : "../images/mannequins/underwearshirtpulloverpantsjacket.png",
@@ -253,12 +229,6 @@
     "ident": "brasocksshirtpulloverscarf"
   },
   {
-    "id" : 42,
-    "name" : "femme",
-    "image" : "../images/mannequins/underwearshirtpulloverscarf.png",
-    "ident": "underwearshirtpulloverscarf"
-  },
-  {
     "id" : 43,
     "name" : "femme",
     "image" : "../images/mannequins/brashirtpulloverjacketscarf.png",
@@ -269,18 +239,6 @@
     "name" : "femme",
     "image" : "../images/mannequins/brapantiesshirtpulloverjacketscarf.png",
     "ident": "brapantiesshirtpulloverjacketscarf"
-  },
-  {
-    "id" : 45,
-    "name" : "femme",
-    "image" : "../images/mannequins/brasocksshirtpulloverjacketscarf.png",
-    "ident": "brasocksshirtpulloverjacketscarf"
-  },
-  {
-    "id" : 46,
-    "name" : "femme",
-    "image" : "../images/mannequins/underwearshirtpulloverjacketscarf.png",
-    "ident": "underwearshirtpulloverjacketscarf"
   },
   {
     "id" : 47,
@@ -402,7 +360,6 @@
     "image" : "../images/mannequins/underwearshirtpulloverpantsshoesjackethatscarf.png",
     "ident": "underwearshirtpulloverpantsshoesjackethatscarf"
   },
-  ,
   {
     "id" : 66,
     "name" : "femme",
