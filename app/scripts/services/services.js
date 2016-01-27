@@ -11,29 +11,29 @@ angular.module('habilleToiApp')
 
     var saisons = [{
       id: 0,
-      name : 'printemps',
-      des: 'il fait beau au printemps',
+      name : 'Printemps',
+      des: 'Il fait beau au printemps',
       image : '../images/saisons/printemps.png',
       bgimage: '../images/saisons/printemps-bg.jpg'
     },
       {
         id: 1,
-        name: 'ete',
-        des: 'il fait chaud en été',
+        name: 'Eté',
+        des: 'Il fait chaud en été',
         image: '../images/saisons/ete.png',
         bgimage: '../images/saisons/ete-bg.jpg'
       },
       {
         id: 2,
-        name : 'automne',
-        des: 'il fait frais en automne',
+        name : 'Automne',
+        des: 'Il fait frais en automne',
         image : '../images/saisons/automne.png',
         bgimage : '../images/saisons/automne-bg.jpg'
       },
       {
         id: 3,
-        name: 'hiver',
-        des: 'il fait froid en hiver',
+        name: 'Hiver',
+        des: 'Il fait froid en hiver',
         image: '../images/saisons/hiver.png',
         bgimage: '../images/saisons/hiver-bg.jpg'
       }
@@ -95,7 +95,7 @@ angular.module('habilleToiApp')
     var sousvetements = [{
       id: 0,
       name: 'soutien-gorge',
-      image: '../images/vetements/soutien-gorge.png',
+      image: '../images/vetements/bra.png',
       ident: 'bra'
     },
     {
@@ -107,7 +107,7 @@ angular.module('habilleToiApp')
       {
         id: 3,
         name: 'chaussettes',
-        image: '../images/vetements/armoire/chaussettes_armoire.png',
+        image: '../images/vetements/chaussettes_armoire.png',
         ident: 'socks'
       },
       {
@@ -115,8 +115,13 @@ angular.module('habilleToiApp')
         name: 'culotte',
         image: '../images/vetements/culotte.png',
         ident: 'panties'
+      },
+      {
+        id: 4,
+        name: 'collants',
+        image: '../images/vetements/tightsbox.png',
+        ident: 'tights'
       }
-
     ];
     return {
       all: function () {
@@ -136,7 +141,7 @@ angular.module('habilleToiApp')
     var hauts = [{
       id: 0,
       name: 'pull',
-      image: '../images/vetements/pull_armoire.png',
+      image: '../images/vetements/pull4.png',
       ident:'pullover'
 
     },
@@ -165,7 +170,7 @@ angular.module('habilleToiApp')
     var bas = [{
         id: 2,
         name: 'pantalon best',
-        image: '../images/vetements/pantalon_resize_best.png',
+        image: '../images/vetements/pant3.png',
         ident: 'pants'
       },
       {
@@ -242,7 +247,7 @@ angular.module('habilleToiApp')
     var accessoires = [{
       id: 0,
       name: 'echarpe',
-      image: '../images/vetements/écharpe.png',
+      image: '../images/vetements/scarf.png',
       ident: 'scarf'
     },
       {
@@ -250,6 +255,12 @@ angular.module('habilleToiApp')
         name: 'gant',
         image: '../images/vetements/gant_droit.png',
         ident: 'gloves'
+      },
+      {
+        id: 2,
+        name: 'bonnet',
+        image: '../images/vetements/bonnet_armoire.png',
+        ident: 'hat'
       }
     ];
     return {

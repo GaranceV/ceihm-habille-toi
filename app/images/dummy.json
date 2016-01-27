@@ -21,7 +21,6 @@
   {
     "id": 3,
     "name": "femme",
-
     "image": "../images/mannequins/panties.png",
     "ident": "panties"
   },
@@ -34,7 +33,7 @@
   {
     "id": 5,
     "name": "femme",
-    "image": "../images/mannequins/sock.png",
+    "image": "../images/mannequins/MANQUE.png",
     "ident": "socks"
   },
   {
@@ -46,7 +45,7 @@
   {
     "id": 7,
     "name": "femme",
-    "image": "../images/mannequins/sockspanties.png",
+    "image": "../images/mannequins/MANQUE.png",
     "ident": "sockspanties"
   },
   {
@@ -176,30 +175,6 @@
     "ident": "underwearshirtpulloverpantsshoes"
   },
   {
-    "id" : 29,
-    "name" : "femme",
-    "image" : "../images/mannequins/brashirtpulloverjacket.png",
-    "ident": "brashirtpulloverjacket"
-  },
-  {
-    "id" : 30,
-    "name" : "femme",
-    "image" : "../images/mannequins/brapantiesshirtpulloverjacket.png",
-    "ident": "brapantiesshirtpulloverjacket"
-  },
-  {
-    "id" : 31,
-    "name" : "femme",
-    "image" : "../images/mannequins/brasocksshirtpulloverjacket.png",
-    "ident": "brasocksshirtpulloverjacket"
-  },
-  {
-    "id" : 32,
-    "name" : "femme",
-    "image" : "../images/mannequins/underwearshirtpulloverjacket.png",
-    "ident": "underwearshirtpulloverjacket"
-  },
-  {
     "id" : 33,
     "name" : "femme",
     "image" : "../images/mannequins/underwearshirtpulloverpantsjacket.png",
@@ -254,12 +229,6 @@
     "ident": "brasocksshirtpulloverscarf"
   },
   {
-    "id" : 42,
-    "name" : "femme",
-    "image" : "../images/mannequins/underwearshirtpulloverscarf.png",
-    "ident": "underwearshirtpulloverscarf"
-  },
-  {
     "id" : 43,
     "name" : "femme",
     "image" : "../images/mannequins/brashirtpulloverjacketscarf.png",
@@ -270,18 +239,6 @@
     "name" : "femme",
     "image" : "../images/mannequins/brapantiesshirtpulloverjacketscarf.png",
     "ident": "brapantiesshirtpulloverjacketscarf"
-  },
-  {
-    "id" : 45,
-    "name" : "femme",
-    "image" : "../images/mannequins/brasocksshirtpulloverjacketscarf.png",
-    "ident": "brasocksshirtpulloverjacketscarf"
-  },
-  {
-    "id" : 46,
-    "name" : "femme",
-    "image" : "../images/mannequins/underwearshirtpulloverjacketscarf.png",
-    "ident": "underwearshirtpulloverjacketscarf"
   },
   {
     "id" : 47,
@@ -298,7 +255,7 @@
   {
     "id" : 49,
     "name" : "femme",
-    "image" : "../images/mannequins/underwearshirtpantsshoesscarf.png",
+    "image" : "../images/mannequins/MANQUE.png",
     "ident": "underwearshirtpantsshoesscarf"
   },
   {
@@ -334,7 +291,7 @@
   {
     "id" : 54,
     "name" : "femme",
-    "image" : "../images/mannequins/underwearpantsshoesshirt.png",
+    "image" : "../images/mannequins/underwearshirtpantsshoes.png",
     "ident": "underwearpantsshoesshirt"
   },
   {
@@ -352,14 +309,229 @@
   {
     "id" : 57,
     "name" : "femme",
-    "image" : "../images/mannequins/brashirtpanties.png",
+    "image" : "../images/mannequins/brapantiesshirt.png",
     "ident": "brashirtpanties"
   },
   {
     "id" : 58,
     "name" : "femme",
-    "image" : "../images/mannequins/brashirtsocks.png",
+    "image" : "../images/mannequins/brasocksshirt.png",
     "ident": "brashirtsocks"
+  },
+  {
+    "id" : 59,
+    "name" : "femme",
+    "image" : "../images/mannequins/underwearshirtpulloverpantsshoes.png",
+    "ident": "underwearpantsshoesshirtpullover"
+  },
+  {
+    "id" : 60,
+    "name" : "femme",
+    "image" : "../images/mannequins/underwearshirtpulloverpantsshoesglovesscarf.png",
+    "ident": "underwearshirtpulloverpantsshoesglovesscarf"
+  },
+  {
+    "id" : 61,
+    "name" : "femme",
+    "image" : "../images/mannequins/underwearshirtpulloverpantsshoeshat.png",
+    "ident": "underwearshirtpulloverpantsshoeshat"
+  },
+  {
+    "id" : 62,
+    "name" : "femme",
+    "image" : "../images/mannequins/underwearshirtpulloverpantsshoeshatgloves.png",
+    "ident": "underwearshirtpulloverpantsshoeshatgloves"
+  },
+  {
+    "id" : 63,
+    "name" : "femme",
+    "image" : "../images/mannequins/underwearshirtpulloverpantsshoesjackethat.png",
+    "ident": "underwearshirtpulloverpantsshoesjackethat"
+  },
+  {
+    "id" : 64,
+    "name" : "femme",
+    "image" : "../images/mannequins/underwearshirtpulloverpantsshoesjackethatgloves.png",
+    "ident": "underwearshirtpulloverpantsshoesjackethatgloves"
+  },
+  {
+    "id" : 65,
+    "name" : "femme",
+    "image" : "../images/mannequins/underwearshirtpulloverpantsshoesjackethatscarf.png",
+    "ident": "underwearshirtpulloverpantsshoesjackethatscarf"
+  },
+  {
+    "id" : 66,
+    "name" : "femme",
+    "image" : "../images/mannequins/pantsall.png",
+    "ident": "pantsall"
+  },
+  {
+    "id" : 67,
+    "name" : "femme",
+    "image" : "../images/mannequins/MANQUE.png",
+    "ident": "tightspanties"
+  },
+  {
+    "id" : 68,
+    "name" : "femme",
+    "image" : "../images/mannequins/tights.png",
+    "ident": "tights"
+  },
+  {
+    "id" : 69,
+    "name" : "femme",
+    "image" : "../images/mannequins/tightsshirt.png",
+    "ident": "tightsshirt"
+  },
+  {
+    "id" : 70,
+    "name" : "femme",
+    "image" : "../images/mannequins/tightsshirtpullover.png",
+    "ident": "tightsshirtpullover"
+  },
+  {
+    "id" : 71,
+    "name" : "femme",
+    "image" : "../images/mannequins/tightsskirt.png",
+    "ident": "tightsskirt"
+  },
+  {
+    "id" : 72,
+    "name" : "femme",
+    "image" : "../images/mannequins/tightsskirtshirt.png",
+    "ident": "tightsskirtshirt"
+  },
+  {
+    "id" : 73,
+    "name" : "femme",
+    "image" : "../images/mannequins/tightsskirtshirtpullover.png",
+    "ident": "tightsskirtshirtpullover"
+  },
+  {
+    "id" : 73,
+    "name" : "femme",
+    "image" : "../images/mannequins/tightsskirtshirtshoes.png",
+    "ident": "tightsskirtshirtshoes"
+  },
+  {
+    "id" : 73,
+    "name" : "femme",
+    "image" : "../images/mannequins/tightsskirtshirtpullovershoes.png",
+    "ident": "tightsskirtshirtpullovershoes"
+  },
+  {
+    "id" : 74,
+    "name" : "femme",
+    "image" : "../images/mannequins/tightsskirtshirtpulloverjacketshoes.png",
+    "ident": "tightsskirtshirtpulloverjacketshoes"
+  },
+  {
+    "id" : 75,
+    "name" : "femme",
+    "image" : "../images/mannequins/tightsskirtshirtpulloverjacket.png",
+    "ident": "tightsskirtshirtpulloverjacket"
+  },
+  {
+    "id" : 76,
+    "name" : "femme",
+    "image" : "../images/mannequins/tightsskirtshirtpulloverjacketscarf.png",
+    "ident": "tightsskirtshirtpulloverjacketscarf"
+  },
+  {
+    "id" : 77,
+    "name" : "femme",
+    "image" : "../images/mannequins/tightsskirtshirtpulloverjacketshoesscarf.png",
+    "ident": "tightsskirtshirtpulloverjacketshoesscarf"
+  },
+  {
+    "id" : 78,
+    "name" : "femme",
+    "image" : "../images/mannequins/tightsskirtshirtpulloverjacketshoesgloves.png",
+    "ident": "tightsskirtshirtpulloverjacketshoesgloves"
+  },
+  {
+    "id" : 79,
+    "name" : "femme",
+    "image" : "../images/mannequins/tightsskirtshirtpulloverjacketshoeshat.png",
+    "ident": "tightsskirtshirtpulloverjacketshoeshat"
+  },
+  {
+    "id" : 80,
+    "name" : "femme",
+    "image" : "../images/mannequins/tightsskirtshirtpulloverjacketshoeshatgloves.png",
+    "ident": "tightsskirtshirtpulloverjacketshoeshatgloves"
+  },
+  {
+    "id" : 81,
+    "name" : "femme",
+    "image" : "../images/mannequins/tightsskirtshirtpulloverjacketshoeshatscarf.png",
+    "ident": "tightsskirtshirtpulloverjacketshoeshatscarf"
+  },
+  {
+    "id" : 82,
+    "name" : "femme",
+    "image" : "../images/mannequins/tightsskirtshirtpulloverjacketshoeshatglovesscarf.png",
+    "ident": "tightsskirtshirtpulloverjacketshoeshatglovesscarf"
+  },
+  {
+    "id" : 83,
+    "name" : "femme",
+    "image" : "../images/mannequins/tightsskirtshirtpulloverjacketshoesscarfgloves.png",
+    "ident": "tightsskirtshirtpulloverjacketshoesglovesscarf"
+  },
+  {
+    "id" : 84,
+    "name" : "femme",
+    "image" : "../images/mannequins/tightsskirtshirtpullovershoesgloves.png",
+    "ident": "tightsskirtshirtpullovershoesgloves"
+  },
+  {
+    "id" : 85,
+    "name" : "femme",
+    "image" : "../images/mannequins/tightsskirtshirtpullovershoeshat.png",
+    "ident": "tightsskirtshirtpullovershoeshat"
+  },
+  {
+    "id" : 86,
+    "name" : "femme",
+    "image" : "../images/mannequins/tightsskirtshirtpullovershoesscarf.png",
+    "ident": "tightsskirtshirtpullovershoesscarf"
+  },
+  {
+    "id" : 87,
+    "name" : "femme",
+    "image" : "../images/mannequins/tightsskirtshirtpullovershoesgloveshat.png",
+    "ident": "tightsskirtshirtpullovershoesgloveshat"
+  },
+  {
+    "id" : 88,
+    "name" : "femme",
+    "image" : "../images/mannequins/tightsskirtshirtpullovershoesgloveshatscarf.png",
+    "ident": "tightsskirtshirtpullovershoesgloveshatscarf"
+  },
+  {
+    "id" : 89,
+    "name" : "femme",
+    "image" : "../images/mannequins/tightsskirtshirtpullovershoeshatscarf.png",
+    "ident": "tightsskirtshirtpullovershoeshatscarf"
+  },
+  {
+    "id" : 90,
+    "name" : "femme",
+    "image" : "../images/mannequins/tightsskirtshirtpullovershoesglovesscarf.png",
+    "ident": "tightsskirtshirtpullovershoesglovesscarf"
+  },
+  {
+    "id" : 91,
+    "name" : "femme",
+    "image" : "../images/mannequins/tightsskirtshirtpullovershoes.png",
+    "ident": "tightsskirtshirtpullovershoes"
+  },
+  {
+    "id" : 92,
+    "name" : "femme",
+    "image" : "../images/mannequins/MANQUE.png",
+    "ident": "tightsskirtshirtpulloverjacketshoesglovesscarfhat"
   }
-
 ]

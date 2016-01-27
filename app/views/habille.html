@@ -5,11 +5,11 @@
         <img ng-src="{{mannequin.image}}">
       </div>
       <div class="col-lg-7">
-        <div class="row" style="background-image: url('../images/armoire-bg.jpg'); margin-top: 20px; background-size: cover">
+        <div class="row" style="background-image: url('../images/armoire-bg.jpg');min-height: 90px;background-size: cover">
           <strong>Sous Vêtements</strong>
           <div ng-repeat="sousvetement in sousvetements">
             <div ng-click="newUnderwear(sousvetement)" class="col-lg-2">
-              <img class="navbar-brand" style="padding: 0.5px 32px;"  ng-src="{{sousvetement.image}}">
+              <img class="affichageVetements navbar-brand" style="padding: 0.5px 32px;"  ng-src="{{sousvetement.image}}">
               <div style="position: absolute; left:60px; top: 20px;z-index: 2;" class="hidden croix-rouge" id="{{sousvetement.ident}}">
                 <div class="text-danger">
                   <i class="fa fa-times fa-3x"></i>
@@ -19,11 +19,11 @@
           </div>
         </div>
 
-        <div class="row" style="background-image: url('../images/armoire-bg.jpg');background-size: cover">
+        <div class="row" style="background-image: url('../images/armoire-bg.jpg');min-height: 90px;background-size: cover">
           <strong>Hauts</strong>
           <div ng-repeat="haut in hauts">
             <div ng-click="newShirt(haut)" class="col-lg-2">
-              <img class="navbar-brand" style="padding: 0.5px 32px;" ng-src="{{haut.image}}">
+              <img class="affichageVetements navbar-brand" style="padding: 0.5px 32px;" ng-src="{{haut.image}}">
               <div style="position: absolute; left:60px; top: 20px;z-index: 2;" class="hidden croix-rouge" id="{{haut.ident}}">
                 <div class="text-danger">
                   <i class="fa fa-times fa-3x"></i>
@@ -33,11 +33,11 @@
           </div>
         </div>
 
-        <div class="row" style="background-image: url('../images/armoire-bg.jpg'); background-size: cover">
+        <div class="row" style="background-image: url('../images/armoire-bg.jpg'); min-height: 90px;background-size: cover">
           <strong>Bas</strong>
           <div ng-repeat="ba in bas">
             <div ng-click="newPants(ba)" class="col-lg-2">
-              <img class="navbar-brand" style="padding: 0.5px 32px;" ng-src="{{ba.image}}">
+              <img class="affichageVetements navbar-brand" style="padding: 0.5px 32px;" ng-src="{{ba.image}}">
               <div style="position: absolute; left:60px; top: 20px;z-index: 2;" class="hidden croix-rouge" id="{{ba.ident}}">
                 <div class="text-danger">
                   <i class="fa fa-times fa-3x"></i>
@@ -47,11 +47,11 @@
           </div>
         </div>
 
-        <div class="row" style="background-image: url('../images/armoire-bg.jpg');background-size: cover ">
+        <div class="row" style="background-image: url('../images/armoire-bg.jpg');min-height: 90px;background-size: cover ">
           <strong>Vests</strong>
           <div ng-repeat="vest in vests">
             <div ng-click="newJacket(vest)" class="col-lg-2">
-              <img class="navbar-brand" style="padding: 0.5px 32px;" ng-src="{{vest.image}}">
+              <img class="affichageVetements navbar-brand" style="padding: 0.5px 32px;" ng-src="{{vest.image}}">
               <div style="position: absolute; left:60px; top: 20px;z-index: 2;" class="hidden croix-rouge" id="{{vest.ident}}">
                 <div class="text-danger">
                   <i class="fa fa-times fa-3x"></i>
@@ -61,11 +61,11 @@
           </div>
         </div>
 
-        <div class="row" style="background-image: url('../images/armoire-bg.jpg'); background-size: cover">
+        <div class="row" style="background-image: url('../images/armoire-bg.jpg');min-height: 90px; background-size: cover">
           <strong>Chaussures</strong>
           <div ng-repeat="ch in chaussures">
             <div ng-click="newShoes(ch)" class="col-lg-2">
-              <img class="navbar-brand" style="padding: 0.5px 32px;" ng-src="{{ch.image}}">
+              <img class="affichageVetements navbar-brand" style="padding: 0.5px 32px;" ng-src="{{ch.image}}">
               <div style="position: absolute; left:60px; top: 20px;z-index: 2;" class="hidden croix-rouge" id="{{ch.ident}}">
                 <div class="text-danger">
                   <i class="fa fa-times fa-3x"></i>
@@ -75,11 +75,11 @@
           </div>
         </div>
 
-        <div class="row" style="background-image: url('../images/armoire-bg.jpg'); background-size: cover">
+        <div class="row" style="background-image: url('../images/armoire-bg.jpg');min-height: 90px; background-size: cover">
           <strong>Accessoires</strong>
           <div ng-repeat="accessoire in accessoires">
             <div ng-click="newScarf(accessoire)" class="col-lg-2">
-              <img class="navbar-brand" style="padding: 0.5px 32px;" ng-src="{{accessoire.image}}">
+              <img class="affichageVetements navbar-brand" style="padding: 0.5px 32px;" ng-src="{{accessoire.image}}">
               <div style="position: absolute; left:60px; top: 20px;z-index: 2;" class="hidden croix-rouge" id="{{accessoire.ident}}">
                 <div class="text-danger">
                   <i class="fa fa-times fa-3x"></i>
