@@ -409,13 +409,13 @@
     "ident": "tightsskirtshirtpullover"
   },
   {
-    "id" : 73,
+    "id" : 45,
     "name" : "femme",
     "image" : "../images/mannequins/tightsskirtshirtshoes.png",
     "ident": "tightsskirtshirtshoes"
   },
   {
-    "id" : 73,
+    "id" : 46,
     "name" : "femme",
     "image" : "../images/mannequins/tightsskirtshirtpullovershoes.png",
     "ident": "tightsskirtshirtpullovershoes"
@@ -533,5 +533,11 @@
     "name" : "femme",
     "image" : "../images/mannequins/MANQUE.png",
     "ident": "tightsskirtshirtpulloverjacketshoesglovesscarfhat"
+  },
+  {
+    "id" : 93,
+    "name" : "femme",
+    "image" : "../images/mannequins/tightsskirtshoes.png",
+    "ident": "tightsskirtshoes"
   }
 ]
