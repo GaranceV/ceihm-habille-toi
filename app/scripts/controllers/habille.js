@@ -1124,6 +1124,17 @@ angular.module('habilleToiApp')
           findAndFilter($scope.accessoires, 'ident', clothesJSON.ident);
         }
       }
+      else if ($scope.mannequin.ident == 'underwearshirtpulloverpantsshoeshatgloves') {
+        if (clothesJSON.ident == 'scarf') {
+          $scope.mannequin = Mannequins.getIdent('tightsskirtshirtpulloverjacketshoeshatglovesscarf');
+          angular.element($document[0].getElementsByClassName('croix-rouge')).addClass('hidden');
+          findAndRemove($scope.accessoires, 'ident', clothesJSON.ident);
+        }
+        else {
+          $scope.audio_bad.play();
+          findAndFilter($scope.accessoires, 'ident', clothesJSON.ident);
+        }
+      }
       else if ($scope.mannequin.ident == 'underwearshirtpulloverpantsshoesgloves') {
         if (clothesJSON.ident == 'scarf') {
           $scope.mannequin = Mannequins.getIdent($scope.mannequin.ident + clothesJSON.ident);
