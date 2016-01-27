@@ -5,7 +5,7 @@
         <img class="mannequin" ng-src="{{mannequin.image}}">
       </div>
       <div class="col-lg-7">
-        <div class="row" style="background-image: url('../images/armoire-bg.jpg');background-size: cover">
+        <div class="row" style="background-image: url('../images/armoire-bg.jpg');min-height: 90px;background-size: cover">
           <strong>Sous Vêtements</strong>
           <div ng-repeat="sousvetement in sousvetements">
             <div ng-click="newUnderwear(sousvetement)" class="col-lg-2">
@@ -19,7 +19,7 @@
           </div>
         </div>
 
-        <div class="row" style="background-image: url('../images/armoire-bg.jpg');background-size: cover">
+        <div class="row" style="background-image: url('../images/armoire-bg.jpg');min-height: 90px;background-size: cover">
           <strong>Hauts</strong>
           <div ng-repeat="haut in hauts">
             <div ng-click="newShirt(haut)" class="col-lg-2">
@@ -33,7 +33,7 @@
           </div>
         </div>
 
-        <div class="row" style="background-image: url('../images/armoire-bg.jpg'); background-size: cover">
+        <div class="row" style="background-image: url('../images/armoire-bg.jpg'); min-height: 90px;background-size: cover">
           <strong>Bas</strong>
           <div ng-repeat="ba in bas">
             <div ng-click="newPants(ba)" class="col-lg-2">
@@ -47,7 +47,7 @@
           </div>
         </div>
 
-        <div class="row" style="background-image: url('../images/armoire-bg.jpg');background-size: cover ">
+        <div class="row" style="background-image: url('../images/armoire-bg.jpg');min-height: 90px;background-size: cover ">
           <strong>Vests</strong>
           <div ng-repeat="vest in vests">
             <div ng-click="newJacket(vest)" class="col-lg-2">
@@ -61,7 +61,7 @@
           </div>
         </div>
 
-        <div class="row" style="background-image: url('../images/armoire-bg.jpg'); background-size: cover">
+        <div class="row" style="background-image: url('../images/armoire-bg.jpg');min-height: 90px; background-size: cover">
           <strong>Chaussures</strong>
           <div ng-repeat="ch in chaussures">
             <div ng-click="newShoes(ch)" class="col-lg-2">
@@ -75,7 +75,7 @@
           </div>
         </div>
 
-        <div class="row" style="background-image: url('../images/armoire-bg.jpg'); background-size: cover">
+        <div class="row" style="background-image: url('../images/armoire-bg.jpg');min-height: 90px; background-size: cover">
           <strong>Accessoires</strong>
           <div ng-repeat="accessoire in accessoires">
             <div ng-click="newScarf(accessoire)" class="col-lg-2">
