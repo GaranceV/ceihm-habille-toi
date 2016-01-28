@@ -228,7 +228,13 @@ angular.module('habilleToiApp')
       name: 'chaussure',
       image: '../images/vetements/chaussures_resize.png',
       ident: 'shoes'
-    }
+    },
+      {
+        id: 0,
+        name: 'chaussons',
+        image: '../images/vetements/slipper.png',
+        ident: 'slippers'
+      }
     ];
     return {
       all: function () {

@@ -33,7 +33,7 @@
   {
     "id": 5,
     "name": "femme",
-    "image": "../images/mannequins/MANQUE.png",
+    "image": "../images/mannequins/socks.png",
     "ident": "socks"
   },
   {
@@ -45,7 +45,7 @@
   {
     "id": 7,
     "name": "femme",
-    "image": "../images/mannequins/MANQUE.png",
+    "image": "../images/mannequins/sockspanties.png",
     "ident": "sockspanties"
   },
   {
@@ -369,7 +369,7 @@
   {
     "id" : 67,
     "name" : "femme",
-    "image" : "../images/mannequins/MANQUE.png",
+    "image" : "../images/mannequins/tightspanties.png",
     "ident": "tightspanties"
   },
   {
@@ -409,13 +409,13 @@
     "ident": "tightsskirtshirtpullover"
   },
   {
-    "id" : 73,
+    "id" : 45,
     "name" : "femme",
     "image" : "../images/mannequins/tightsskirtshirtshoes.png",
     "ident": "tightsskirtshirtshoes"
   },
   {
-    "id" : 73,
+    "id" : 46,
     "name" : "femme",
     "image" : "../images/mannequins/tightsskirtshirtpullovershoes.png",
     "ident": "tightsskirtshirtpullovershoes"
@@ -531,7 +531,33 @@
   {
     "id" : 92,
     "name" : "femme",
-    "image" : "../images/mannequins/MANQUE.png",
+    "image" : "../images/mannequins/tightsskirtshirtpulloverjacketshoesglovesscarfhat.png",
     "ident": "tightsskirtshirtpulloverjacketshoesglovesscarfhat"
+  },
+  {
+    "id" : 93,
+    "name" : "femme",
+    "image" : "../images/mannequins/tightsskirtshoes.png",
+    "ident": "tightsskirtshoes"
+  },
+  {
+    "id" : 94,
+    "name" : "femme",
+    "image" : "../images/mannequins/underwearshirtpulloverpantsshoesjacketscarfgloveshat.png",
+    "ident": "underwearshirtpulloverpantsshoesjacketscarfgloveshat"
+  },
+  {
+    "id" : 95,
+    "name" : "femme",
+    "image" : "../images/mannequins/tightspantiesskirt.png",
+    "ident": "tightspantiesskirt"
+  },
+  {
+    "id" : 96,
+    "name" : "femme",
+    "image" : "../images/mannequins/tightspantiesskirtshoes.png",
+    "ident": "tightspantiesskirtshoes"
   }
+
+
 ]
