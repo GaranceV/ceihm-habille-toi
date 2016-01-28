@@ -1,13 +1,13 @@
 [{
   "id": 0,
-  "name": "homme",
+  "name": "Un homme",
   "image": "../images/mannequins/corpsHomme.png",
   "teteimage": "../images/mannequins/homme_tete.png"
 
 },
   {
     "id": 1,
-    "name": "femme",
+    "name": "Une femme",
     "image": "../images/mannequins/naked.png",
     "teteimage": "../images/mannequins/femme_tete.png",
     "ident": "naked"

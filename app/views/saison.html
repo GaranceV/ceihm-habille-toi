@@ -1,9 +1,9 @@
 <div class="row">
   <div class="col-md-offset-3 col-lg-6">
     <div class="alert-info alert">
-      <p class="text-capitalize"><strong>choisir une saison</strong></p>
-      <p class="text-capitalize">Dans quelle saison sommes-nous?</p>
-      <p class="text-capitalize">sélectionnez la bonne saison</p>
+      <h1 ><strong>Choisir la saison</strong></h1>
+      <h2>En quelle saison sommes-nous?</h2>
+      <h3>Sélectionnez la bonne saison</h3>
     </div>
   </div>
 </div>
@@ -12,7 +12,7 @@
   <div ng-repeat="saison in saisons">
     <div class="col-xs-6 col-md-3">
       <a href="/#/saison/{{saison.id}}" class="thumbnail">
-        <h4 class="text-capitalize text-info">{{saison.name}}</h4>
+        <h3 class="text-capitalize text-info">{{saison.name}}</h3>
         <img ng-src="{{saison.image}}" alt="Printemps">
       </a>
     </div>
