@@ -483,7 +483,7 @@ angular.module('habilleToiApp')
           findAndFilter($scope.bas, 'ident', clothesJSON.ident);
         }
       }
-      else if ($scope.mannequin.ident == 'tights') {
+      else if ($scope.mannequin.ident == 'tightspanties') {
         // if underwear go shirt
         if (clothesJSON.ident == 'skirt') {
           $scope.mannequin = Mannequins.getIdent($scope.mannequin.ident + clothesJSON.ident);
