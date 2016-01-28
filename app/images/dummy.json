@@ -545,6 +545,19 @@
     "name" : "femme",
     "image" : "../images/mannequins/underwearshirtpulloverpantsshoesjacketscarfgloveshat.png",
     "ident": "underwearshirtpulloverpantsshoesjacketscarfgloveshat"
+  },
+  {
+    "id" : 95,
+    "name" : "femme",
+    "image" : "../images/mannequins/tightspantiesskirt.png",
+    "ident": "tightspantiesskirt"
+  },
+  {
+    "id" : 96,
+    "name" : "femme",
+    "image" : "../images/mannequins/tightspantiesskirtshoes.png",
+    "ident": "tightspantiesskirtshoes"
   }
+
 
 ]

@@ -140,6 +140,34 @@ angular.module('habilleToiApp')
           findAndFilter($scope.sousvetements, 'ident', clothesJSON.ident);
         }
       }
+      else if ($scope.mannequin.ident == 'tightspantiesskirt') {
+        //if bra go underwear
+        if (clothesJSON.ident == 'bra') {
+          $scope.mannequin = Mannequins.getIdent('tightsskirt');
+          //Enlever le croix rouge quand choisir un bon vetement
+          angular.element($document[0].getElementsByClassName('croix-rouge')).addClass('hidden');
+          findAndRemove($scope.sousvetements, 'ident', clothesJSON.ident);
+        }
+        else {
+          //error
+          $scope.audio_bad.play();
+          findAndFilter($scope.sousvetements, 'ident', clothesJSON.ident);
+        }
+      }
+      else if ($scope.mannequin.ident == 'tightspantiesskirtshoes') {
+        //if bra go underwear
+        if (clothesJSON.ident == 'bra') {
+          $scope.mannequin = Mannequins.getIdent('tightsskirtshoes');
+          //Enlever le croix rouge quand choisir un bon vetement
+          angular.element($document[0].getElementsByClassName('croix-rouge')).addClass('hidden');
+          findAndRemove($scope.sousvetements, 'ident', clothesJSON.ident);
+        }
+        else {
+          //error
+          $scope.audio_bad.play();
+          findAndFilter($scope.sousvetements, 'ident', clothesJSON.ident);
+        }
+      }
       else if ($scope.mannequin.ident == 'sockspantiespants') {
         //if bra go underwear
         if (clothesJSON.ident == 'bra') {
@@ -483,7 +511,7 @@ angular.module('habilleToiApp')
           findAndFilter($scope.bas, 'ident', clothesJSON.ident);
         }
       }
-      else if ($scope.mannequin.ident == 'tightspanties') {
+      else if ($scope.mannequin.ident == 'tights') {
         // if underwear go shirt
         if (clothesJSON.ident == 'skirt') {
           $scope.mannequin = Mannequins.getIdent($scope.mannequin.ident + clothesJSON.ident);
@@ -507,6 +535,19 @@ angular.module('habilleToiApp')
           findAndFilter($scope.bas, 'ident', clothesJSON.ident);
         }
       }
+      else if ($scope.mannequin.ident == 'tightspanties') {
+        // if underwear go shirt
+        if (clothesJSON.ident == 'skirt') {
+          $scope.mannequin = Mannequins.getIdent('tightspantiesskirt');
+          angular.element($document[0].getElementsByClassName('croix-rouge')).addClass('hidden');
+          findAndRemove($scope.bas, 'ident', clothesJSON.ident);
+        }
+        else {
+          $scope.audio_bad.play();
+          findAndFilter($scope.bas, 'ident', clothesJSON.ident);
+        }
+      }
+
       else if ($scope.mannequin.ident == 'tightsshirtpullover') {
         // if underwear go shirt
         if (clothesJSON.ident == 'skirt') {
@@ -648,6 +689,18 @@ angular.module('habilleToiApp')
         }
       }
       else if ($scope.mannequin.ident == 'tightsskirt') {
+        // if underwear + pants go to shoes
+        if (clothesJSON.ident == 'shoes') {
+          $scope.mannequin = Mannequins.getIdent($scope.mannequin.ident + clothesJSON.ident);
+          angular.element($document[0].getElementsByClassName('croix-rouge')).addClass('hidden');
+          findAndRemove($scope.chaussures, 'ident', clothesJSON.ident);
+        }
+        else {
+          $scope.audio_bad.play();
+          findAndFilter($scope.chaussures, 'ident', clothesJSON.ident);
+        }
+      }
+      else if ($scope.mannequin.ident == 'tightspantiesskirt') {
         // if underwear + pants go to shoes
         if (clothesJSON.ident == 'shoes') {
           $scope.mannequin = Mannequins.getIdent($scope.mannequin.ident + clothesJSON.ident);
