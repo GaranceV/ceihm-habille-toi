@@ -230,10 +230,16 @@ angular.module('habilleToiApp')
       ident: 'shoes'
     },
       {
-        id: 0,
+        id: 1,
         name: 'chaussons',
-        image: '../images/vetements/slipper.png',
+        image: '../images/vetements/mule.png',
         ident: 'slippers'
+      },
+      {
+        id: 2,
+        name: 'sandales',
+        image: '../images/vetements/sandales.png',
+        ident: 'sandals'
       }
     ];
     return {
