@@ -6,10 +6,12 @@
 
 
     <div class="col-md-offset-3 col-lg-6" style="margin-top:18%;">
+    <div class="alert-info alert">
+    <!--<div style="background-color:rgba(74, 120, 237, 0.4) ">-->
     <h1 >C'est l'{{saison.name}} !</h1>
     <h3>{{saison.des}}. </h3>
     <h3> Pour continuer, vous devez choisir si on habille un homme ou une femme : </h3>
-
+    </div>
 
       <div class="col-md-6" ng-repeat="mannequin in mannequins">
           <div ng-show="mannequin.teteimage" >
