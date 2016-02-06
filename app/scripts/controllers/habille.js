@@ -1309,21 +1309,11 @@ angular.module('habilleToiApp')
       array.forEach(function (result, index) {
         if (result[property] === value) {
           //Remove from array
+         // angular.element($document[0].getElementById(result[property])).addClass('hidden');
           array.splice(index, 1);
         }
       });
     }
-
-
-    $scope.resetClothes = function () {
-      $scope.sousvetements = Sousvetements.all();
-      $scope.hauts = Hauts.all();
-      $scope.bas = Bas.all();
-      $scope.vests = Vests.all();
-      $scope.chaussures = Chaussures.all();
-      $scope.accessoires = Accessoires.all();
-      $scope.mannequin = Mannequins.get($routeParams.mannequinId);
-    };
 
 
     function findAndFilter(array, property, value) {
