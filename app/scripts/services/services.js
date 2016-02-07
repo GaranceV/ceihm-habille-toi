@@ -207,7 +207,19 @@ angular.module('habilleToiApp')
       name: 'manteau',
       image: '../images/vetements/manteau_armoire.png',
       ident: 'jacket'
-    }
+    },
+      {
+        id: 1,
+        name: 'manteau court',
+        image: '../images/vetements/manteaucourt.png',
+        ident: 'shortCoat'
+      },
+      {
+        id: 2,
+        name: 'manteau noir',
+        image: '../images/vetements/manteauNoir.png',
+        ident: 'balckCoat'
+      }
     ];
     return {
       all: function () {
