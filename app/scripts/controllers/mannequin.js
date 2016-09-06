@@ -9,12 +9,8 @@
  */
 angular.module('habilleToiApp')
   .controller('MannequinCtrl', function ($scope, Mannequins, $routeParams) {
+      $scope.mannequins = Mannequins.all();
 
-    $scope.dummyPromise = Mannequins.all();
-    $scope.dummyPromise.then(function(result) {
-      $scope.mannequins = result.data;
-      console.log($scope.mannequins);
-    });
     $scope.saisonId= $routeParams.saisonId;
 
   });

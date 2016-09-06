@@ -1,11 +1,18 @@
-.container{
+.container {
   width: 100%;
 }
 
-.mannequin{
+.mannequin {
   margin-left: 20%;
 }
 
-.affichageVetements{
+.affichageVetements {
   height:70px;
+}
+
+.redCrossPosition {
+    position: absolute;
+    left:60px;
+    top: 20px;
+    z-index: 2;
 }
