@@ -8,5 +8,5 @@
   "dependencies": {
     "electron-squirrel-startup": "^1.0.0",
     "winston": "^2.2.0"
-  } 
+  }
 }

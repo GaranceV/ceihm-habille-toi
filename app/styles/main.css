@@ -16,3 +16,15 @@
     top: 20px;
     z-index: 2;
 }
+
+.clickable:focus .affichageVetements {
+    outline: 2px #651e57 solid;
+}
+
+.myNonVisible {
+    visibility: hidden;
+}
+
+.clickable:focus {
+    outline: none;
+}
