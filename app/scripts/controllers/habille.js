@@ -1284,8 +1284,9 @@ angular.module('habilleToiApp')
       array.forEach(function (result) {
         if (result[property] === value) {
           //Remove from array
-          angular.element(document.querySelector('#'+result[property])).addClass("myNonVisible");
-
+          angular.element(document.querySelector('#'+result[property])).parent()
+          .addClass("myNonVisible")
+          .prop("ng-click", "");
          // angular.element($document[0].getElementById(result[property])).addClass('hidden');
         //   array.splice(index, 1);
         }
@@ -1297,9 +1298,9 @@ angular.module('habilleToiApp')
       array.forEach(function (result) {
         if (result[property] === value) {
           //gray the chosen image
-          angular.element($document[0].getElementById(result[property])).parent()
-          .removeClass('hidden')
-          .prop("ng-click", "");
+          angular.element($document[0].getElementById(result[property]))
+          .removeClass('hidden');
+
         }
       });
     }
