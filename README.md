@@ -1,15 +1,6 @@
-# habille toi
+# EA Todo
 
-This project is generated with [yo angular generator](https://github.com/yeoman/generator-angular)
-version 0.15.1.
+Application for introduction series on integrating AngularJS with Electron. Introduction series can be found [here](http://electron.rocks/electron-angularjs/).
 
-## installation
-npm install , bower install
+![image](preview.png)
 
-## Build & development
-
-Run `grunt` for building and `grunt serve` for preview.
-
-## Testing
-
-Running `grunt test` will run the unit tests with karma.

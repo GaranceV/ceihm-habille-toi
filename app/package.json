@@ -1,0 +1,12 @@
+{
+  "name": "habilleToiApp",
+  "version": "0.0.3",
+  "description": "Activité pour habiller un mannequin en fonction de la saison",
+  "author": "CEIHM - Polytech Nice Sophia",
+  "main": "main.js",
+  "license": "MIT",
+  "dependencies": {
+    "electron-squirrel-startup": "^1.0.0",
+    "winston": "^2.2.0"
+  } 
+}
